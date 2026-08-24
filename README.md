@@ -32,9 +32,15 @@ anyway** if you wish to continue. To verify a kit manually, run
 `certutil -hashfile <download.zip> SHA256` and compare it with the adjacent
 `.sha256` file or the release-wide `SHA256SUMS.txt`.
 
-## v0.2.1 owned-input games
+## v0.2.2 owned-input games
 
-These links point to the owned-input kits in release `v0.2.1`.
+These links point to the owned-input kits in release `v0.2.2`.
+
+`v0.2.1` was withdrawn after a clean-machine run exposed failures when a kit
+was extracted below a Windows path containing spaces. `v0.2.2` relocates the
+pinned compiler to a shared space-free cache, uses reliable ZIP extraction,
+and omits the optional embedded Windows icon that triggered the remaining
+resource-compiler failure.
 
 <table>
 <thead>
@@ -47,7 +53,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 </thead>
 <tbody>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-alien-resurrection-europe-v0.2.1-owned-input-win64.zip">Alien Resurrection</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-alien-resurrection-europe-v0.2.2-owned-input-win64.zip">Alien Resurrection</a></td>
 <td>Europe, <code>SLES-02913</code></td>
 <td><code>SCPH-5552</code></td>
 <td>1</td>
@@ -57,7 +63,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/alien-resurrection/alien_resurrection_game.jpg" alt="Alien Resurrection gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-bloody-roar-ii-usa-v0.2.1-owned-input-win64.zip">Bloody Roar II</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-bloody-roar-ii-usa-v0.2.2-owned-input-win64.zip">Bloody Roar II</a></td>
 <td>USA, <code>SCUS-94424</code></td>
 <td><code>SCPH-1001</code></td>
 <td>2</td>
@@ -67,7 +73,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/bloody-roar-ii/bloody-roar-ii_game.jpg" alt="Bloody Roar II gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-brave-fencer-musashi-usa-v0.2.1-owned-input-win64.zip">Brave Fencer Musashi</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-brave-fencer-musashi-usa-v0.2.2-owned-input-win64.zip">Brave Fencer Musashi</a></td>
 <td>USA, <code>SLUS-00726</code></td>
 <td><code>SCPH-1001</code></td>
 <td>1</td>
@@ -77,7 +83,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/brave-fencer-musashi/brave-fencer-musashi_game.jpg" alt="Brave Fencer Musashi gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-diablo-europe-v0.2.1-owned-input-win64.zip">Diablo</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-diablo-europe-v0.2.2-owned-input-win64.zip">Diablo</a></td>
 <td>Europe (Spanish/Portuguese), <code>SLES-01156</code></td>
 <td><code>SCPH-5552</code></td>
 <td>2</td>
@@ -87,7 +93,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/diablo/diablo_game.jpg" alt="Diablo gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-fighting-force-usa-v0.2.1-owned-input-win64.zip">Fighting Force</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-fighting-force-usa-v0.2.2-owned-input-win64.zip">Fighting Force</a></td>
 <td>USA, <code>SLUS-00433</code></td>
 <td><code>SCPH-1001</code></td>
 <td>2</td>
@@ -97,7 +103,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/fighting-force/fighting-force_game.jpg" alt="Fighting Force gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-jackie-chan-stuntmaster-usa-v0.2.1-owned-input-win64.zip">Jackie Chan Stuntmaster</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-jackie-chan-stuntmaster-usa-v0.2.2-owned-input-win64.zip">Jackie Chan Stuntmaster</a></td>
 <td>USA, <code>SLUS-00684</code></td>
 <td><code>SCPH-1001</code></td>
 <td>1</td>
@@ -107,7 +113,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/jackie-chan-stuntmaster/jackie-chan-stuntmaster_game.jpg" alt="Jackie Chan Stuntmaster gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-legacy-of-kain-soul-reaver-europe-v0.2.1-owned-input-win64.zip">Legacy of Kain: Soul Reaver</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-legacy-of-kain-soul-reaver-europe-v0.2.2-owned-input-win64.zip">Legacy of Kain: Soul Reaver</a></td>
 <td>Europe, <code>SLES-01301</code></td>
 <td><code>SCPH-5552</code></td>
 <td>1</td>
@@ -117,7 +123,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/legacy-of-kain-soul-reaver/legacy-of-kain-soul-reaver_game.jpg" alt="Legacy of Kain: Soul Reaver gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-mdk-europe-v0.2.1-owned-input-win64.zip">MDK</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-mdk-europe-v0.2.2-owned-input-win64.zip">MDK</a></td>
 <td>Europe, <code>SLES-00599</code></td>
 <td><code>SCPH-5552</code></td>
 <td>1</td>
@@ -127,7 +133,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/mdk/mdk_game.jpg" alt="MDK gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-medievil-usa-v0.2.1-owned-input-win64.zip">MediEvil</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-medievil-usa-v0.2.2-owned-input-win64.zip">MediEvil</a></td>
 <td>USA, <code>SCUS-94227</code></td>
 <td><code>SCPH-1001</code></td>
 <td>1</td>
@@ -137,7 +143,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/medievil/medievil_game.jpg" alt="MediEvil gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-medievil-ii-usa-v0.2.1-owned-input-win64.zip">MediEvil II</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-medievil-ii-usa-v0.2.2-owned-input-win64.zip">MediEvil II</a></td>
 <td>USA, <code>SCUS-94564</code></td>
 <td><code>SCPH-1001</code></td>
 <td>1</td>
@@ -147,7 +153,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/medievil-ii/medievil-ii_game.jpg" alt="MediEvil II gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-metal-slug-x-usa-v0.2.1-owned-input-win64.zip">Metal Slug X</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-metal-slug-x-usa-v0.2.2-owned-input-win64.zip">Metal Slug X</a></td>
 <td>USA, <code>SLUS-01212</code></td>
 <td><code>SCPH-1001</code></td>
 <td>2</td>
@@ -157,7 +163,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/metal-slug-x/metal-slug-x_game.jpg" alt="Metal Slug X gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-monster-rancher-2-usa-v0.2.1-owned-input-win64.zip">Monster Rancher 2</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-monster-rancher-2-usa-v0.2.2-owned-input-win64.zip">Monster Rancher 2</a></td>
 <td>USA, <code>SLUS-00917</code></td>
 <td><code>SCPH-1001</code></td>
 <td>2</td>
@@ -167,7 +173,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/monster-rancher-2/monster-rancher-2_game.jpg" alt="Monster Rancher 2 gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-mortal-kombat-4-usa-v0.2.1-owned-input-win64.zip">Mortal Kombat 4</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-mortal-kombat-4-usa-v0.2.2-owned-input-win64.zip">Mortal Kombat 4</a></td>
 <td>USA, <code>SLUS-00605</code></td>
 <td><code>SCPH-1001</code></td>
 <td>2</td>
@@ -177,7 +183,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/mortal-kombat-4/mortal-kombat-4_game.jpg" alt="Mortal Kombat 4 gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-nightmare-creatures-usa-v0.2.1-owned-input-win64.zip">Nightmare Creatures</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-nightmare-creatures-usa-v0.2.2-owned-input-win64.zip">Nightmare Creatures</a></td>
 <td>USA, <code>SLUS-00582</code></td>
 <td><code>SCPH-1001</code></td>
 <td>1</td>
@@ -187,7 +193,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/nightmare-creatures/nightmare-creatures_game.jpg" alt="Nightmare Creatures gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-oddworld-abe-s-oddysee-usa-v0.2.1-owned-input-win64.zip">Oddworld: Abe's Oddysee</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-oddworld-abe-s-oddysee-usa-v0.2.2-owned-input-win64.zip">Oddworld: Abe's Oddysee</a></td>
 <td>USA, <code>SLUS-00190</code></td>
 <td><code>SCPH-1001</code></td>
 <td>1</td>
@@ -197,7 +203,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/oddworld-abe-s-oddysee/oddworld-abe-s-oddysee_game.jpg" alt="Oddworld: Abe's Oddysee gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-quake-ii-usa-v0.2.1-owned-input-win64.zip">Quake II</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-quake-ii-usa-v0.2.2-owned-input-win64.zip">Quake II</a></td>
 <td>USA, <code>SLUS-00757</code></td>
 <td><code>SCPH-1001</code></td>
 <td>Up to 4*</td>
@@ -207,7 +213,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/quake-ii/quake-ii_game.jpg" alt="Quake II gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-spyro-the-dragon-europe-v0.2.1-owned-input-win64.zip">Spyro the Dragon</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-spyro-the-dragon-europe-v0.2.2-owned-input-win64.zip">Spyro the Dragon</a></td>
 <td>Europe, <code>SCES-01438</code></td>
 <td><code>SCPH-5552</code></td>
 <td>1</td>
@@ -217,7 +223,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/spyro-the-dragon/spyro_game.jpg" alt="Spyro the Dragon gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-syphon-filter-3-usa-v0.2.1-owned-input-win64.zip">Syphon Filter 3</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-syphon-filter-3-usa-v0.2.2-owned-input-win64.zip">Syphon Filter 3</a></td>
 <td>USA, <code>SCUS-94640</code></td>
 <td><code>SCPH-1001</code></td>
 <td>2</td>
@@ -227,7 +233,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/syphon-filter-3/syphon-filter-3_game.jpg" alt="Syphon Filter 3 gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-tenchu-stealth-assassins-usa-v0.2.1-owned-input-win64.zip">Tenchu: Stealth Assassins</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-tenchu-stealth-assassins-usa-v0.2.2-owned-input-win64.zip">Tenchu: Stealth Assassins</a></td>
 <td>USA, <code>SLUS-00706</code></td>
 <td><code>SCPH-1001</code></td>
 <td>1</td>
@@ -237,7 +243,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/tenchu-stealth-assassins/tenchu-stealth-assassins_game.jpg" alt="Tenchu: Stealth Assassins gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-tony-hawk-s-pro-skater-usa-v0.2.1-owned-input-win64.zip">Tony Hawk's Pro Skater</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-tony-hawk-s-pro-skater-usa-v0.2.2-owned-input-win64.zip">Tony Hawk's Pro Skater</a></td>
 <td>USA, <code>SLUS-00860</code></td>
 <td><code>SCPH-1001</code></td>
 <td>2</td>
@@ -247,7 +253,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/tony-hawks-pro-skater/tony-hawks-pro-skater_game.jpg" alt="Tony Hawk's Pro Skater gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-tony-hawk-s-pro-skater-2-usa-v0.2.1-owned-input-win64.zip">Tony Hawk's Pro Skater 2</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-tony-hawk-s-pro-skater-2-usa-v0.2.2-owned-input-win64.zip">Tony Hawk's Pro Skater 2</a></td>
 <td>USA, <code>SLUS-01066</code></td>
 <td><code>SCPH-1001</code></td>
 <td>2</td>
@@ -257,7 +263,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/tony-hawk-s-pro-skater-2/tony-hawk-s-pro-skater-2_game.jpg" alt="Tony Hawk's Pro Skater 2 gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-tony-hawk-s-pro-skater-3-usa-v0.2.1-owned-input-win64.zip">Tony Hawk's Pro Skater 3</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-tony-hawk-s-pro-skater-3-usa-v0.2.2-owned-input-win64.zip">Tony Hawk's Pro Skater 3</a></td>
 <td>USA, <code>SLUS-01419</code></td>
 <td><code>SCPH-1001</code></td>
 <td>2</td>
@@ -267,7 +273,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/tony-hawk-s-pro-skater-3/tony-hawk-s-pro-skater-3_game.jpg" alt="Tony Hawk's Pro Skater 3 gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-tony-hawk-s-pro-skater-4-usa-v0.2.1-owned-input-win64.zip">Tony Hawk's Pro Skater 4</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-tony-hawk-s-pro-skater-4-usa-v0.2.2-owned-input-win64.zip">Tony Hawk's Pro Skater 4</a></td>
 <td>USA, <code>SLUS-01485</code></td>
 <td><code>SCPH-1001</code></td>
 <td>2</td>
@@ -277,7 +283,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/tony-hawk-s-pro-skater-4/tony-hawk-s-pro-skater-4_game.jpg" alt="Tony Hawk's Pro Skater 4 gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-valkyrie-profile-usa-v0.2.1-owned-input-win64.zip">Valkyrie Profile</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-valkyrie-profile-usa-v0.2.2-owned-input-win64.zip">Valkyrie Profile</a></td>
 <td>USA, <code>SLUS-01156</code>, two discs</td>
 <td><code>SCPH-1001</code></td>
 <td>1</td>
@@ -287,7 +293,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/valkyrie-profile/valkyrie-profile_game.jpg" alt="Valkyrie Profile gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-wipeout-europe-v0.2.1-owned-input-win64.zip">WipEout</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-wipeout-europe-v0.2.2-owned-input-win64.zip">WipEout</a></td>
 <td>Europe, <code>SCES-00010</code></td>
 <td><code>SCPH-5552</code></td>
 <td>1</td>
@@ -297,7 +303,7 @@ These links point to the owned-input kits in release `v0.2.1`.
 <td colspan="2"><img src="screenshots/v0.2.0/wipeout/wipeout_game.jpg" alt="WipEout gameplay" width="100%"></td>
 </tr>
 <tr>
-<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.1/psxrecomp-xena-warrior-princess-usa-v0.2.1-owned-input-win64.zip">Xena: Warrior Princess</a></td>
+<td><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.2/psxrecomp-xena-warrior-princess-usa-v0.2.2-owned-input-win64.zip">Xena: Warrior Princess</a></td>
 <td>USA, <code>SLUS-00977</code></td>
 <td><code>SCPH-1001</code></td>
 <td>1</td>
