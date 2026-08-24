@@ -60,13 +60,35 @@ exists yet.
 | Xena: Warrior Princess | USA, `SLUS-00977` | `SCPH-1001` | Pending |
 | WipEout | Europe, `SCES-00010` | `SCPH-5552` | Pending |
 
+## Known issues
+
+- **F1 -> Display -> Window Scale is not working reliably.** Window Scale is
+  separate from internal rendering resolution and does not control
+  supersampling. To change supersampling, close the game and use the
+  pre-launch GUI launcher instead.
+- Performance has not yet been profiled across representative desktop and
+  laptop hardware. Treat hardware requirements and performance as unqualified
+  until measurements are published.
+
+## Contributing
+
+Anyone may fork this repository and study or experiment with the recompilations
+for noncommercial purposes, subject to PSXRecomp's PolyForm Noncommercial
+License 1.0.0 and the rights applicable to each original game. Contributions
+and reproducible compatibility reports are welcome.
+
+Report problems through **Issues** using this title format:
+
+`[Game Name][Issue] Short description`
+
+For example: `[Alien Resurrection][Issue] Intro FMV displays a corrupted band`.
+
+Include the release version, game region/serial, the point reached in gameplay,
+reproduction steps, expected behavior and observed behavior. Do not upload game
+media, BIOS files, generated game code, memory cards or save states.
+
 These projects are powered by
 [`psxrecomp`](https://github.com/mstan/psxrecomp), licensed under the PolyForm
 Noncommercial License 1.0.0. Game names are used only to identify compatibility
 targets. This project is not affiliated with or endorsed by Sony Interactive
 Entertainment or any game publisher or developer.
-
-Please use **Issues** for compatibility reports. Include the release version,
-game region/serial, the point reached in gameplay and reproduction steps. Do
-not upload game media, BIOS files, generated game code, memory cards or save
-states.
