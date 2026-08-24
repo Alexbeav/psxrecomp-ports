@@ -1,0 +1,55 @@
+# Release artifacts belong in GitHub Releases, never Git history.
+*.exe
+*.dll
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Retail media and extracted game content.
+*.bin
+*.cue
+*.chd
+*.iso
+*.img
+*.mdf
+*.mds
+*.pbp
+*.m3u
+generated/
+staged-inputs/
+_staged-inputs/
+
+# BIOS images and firmware dumps.
+*bios*.rom
+*bios*.bin
+SCPH*.BIN
+SCPH*.ROM
+
+# User data, test state and private configuration.
+*.mcd
+*.mcr
+*.sav
+*.state
+*.state.*
+user-data/
+cards/
+rewind/
+settings.toml
+psx_freeze_heartbeat.json
+psx_last_run_report.json
+*.log
+
+# Local secrets, paths and tooling state.
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+build/
+out/
+dist/
+__pycache__/
+*.pyc
+
