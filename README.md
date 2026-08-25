@@ -379,6 +379,18 @@ reproduction steps, expected behavior, and observed behavior. Do not upload
 game media, BIOS files, generated game or BIOS code, locally built executables,
 memory cards, save states, or unredacted local paths.
 
+## About this project
+
+These ports are developed by a hobbyist (a DevSecOps engineer, not a game
+programmer) with substantial AI assistance. What keeps that honest: every
+change is validated before it ships - boot gates, hardware-oracle A/B
+comparisons (Beetle/DuckStation), deterministic replay probes, and a shared
+findings registry that documents failures as carefully as successes. AI
+writes most of the code; the evidence discipline decides what survives.
+Bug reports welcome - expect them to be investigated the same way.
+
+tl;dr AI writes the code, but I always test it myself before pushing
+
 These projects are powered by
 [`psxrecomp`](https://github.com/mstan/psxrecomp), licensed under the PolyForm
 Noncommercial License 1.0.0. Game names identify compatibility targets only.
