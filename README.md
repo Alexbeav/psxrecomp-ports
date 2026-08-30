@@ -46,37 +46,11 @@ pinned compiler to a shared space-free cache, uses reliable ZIP extraction,
 and omits the optional embedded Windows icon that triggered the remaining
 resource-compiler failure.
 
-Select a game row to show its screenshots, known issues, and shipped enhancements.
-Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when available.
-
-<table width="100%">
-<thead>
-<tr>
-<th width="24%">Title</th>
-<th width="28%">Supported original</th>
-<th width="14%">BIOS</th>
-<th width="10%">Players</th>
-<th width="12%">Details</th>
-<th width="12%">Releases</th>
-</tr>
-</thead>
-</table>
+Open a title to see screenshots, known issues, and shipped enhancements.
+Select **Windows** to download the current owned-input kit.
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Alien Resurrection</strong></td>
-<td width="28%">Europe, <code>SLES-02913</code></td>
-<td width="14%"><code>SCPH-5552</code></td>
-<td width="10%">1</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-alien-resurrection-europe-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Alien Resurrection</strong> — Europe, <code>SLES-02913</code> · BIOS <code>SCPH-5552</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-alien-resurrection-europe-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/alien-resurrection/alien_resurrection_menu.jpg" alt="Alien Resurrection menu" width="49%">
@@ -88,20 +62,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Bloody Roar II</strong></td>
-<td width="28%">USA, <code>SCUS-94424</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">2</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-bloody-roar-ii-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Bloody Roar II</strong> — USA, <code>SCUS-94424</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-bloody-roar-ii-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/bloody-roar-ii/bloody-roar-ii_menu.jpg" alt="Bloody Roar II menu" width="49%">
@@ -113,20 +74,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Brave Fencer Musashi</strong></td>
-<td width="28%">USA, <code>SLUS-00726</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">1</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-brave-fencer-musashi-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Brave Fencer Musashi</strong> — USA, <code>SLUS-00726</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-brave-fencer-musashi-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/brave-fencer-musashi/brave-fencer-musashi_menu.jpg" alt="Brave Fencer Musashi menu" width="49%">
@@ -138,20 +86,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Diablo</strong></td>
-<td width="28%">Europe (Spanish/Portuguese), <code>SLES-01156</code></td>
-<td width="14%"><code>SCPH-5552</code></td>
-<td width="10%">2</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-diablo-europe-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Diablo</strong> — Europe (Spanish/Portuguese), <code>SLES-01156</code> · BIOS <code>SCPH-5552</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-diablo-europe-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/diablo/diablo_menu.jpg" alt="Diablo menu" width="49%">
@@ -163,20 +98,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Fighting Force</strong></td>
-<td width="28%">USA, <code>SLUS-00433</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">2</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-fighting-force-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Fighting Force</strong> — USA, <code>SLUS-00433</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-fighting-force-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/fighting-force/fighting-force_menu.jpg" alt="Fighting Force menu" width="49%">
@@ -188,20 +110,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Jackie Chan Stuntmaster</strong></td>
-<td width="28%">USA, <code>SLUS-00684</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">1</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-jackie-chan-stuntmaster-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Jackie Chan Stuntmaster</strong> — USA, <code>SLUS-00684</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-jackie-chan-stuntmaster-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/jackie-chan-stuntmaster/jackie-chan-stuntmaster_menu.jpg" alt="Jackie Chan Stuntmaster menu" width="49%">
@@ -213,20 +122,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Legacy of Kain: Soul Reaver</strong></td>
-<td width="28%">Europe, <code>SLES-01301</code></td>
-<td width="14%"><code>SCPH-5552</code></td>
-<td width="10%">1</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-legacy-of-kain-soul-reaver-europe-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Legacy of Kain: Soul Reaver</strong> — Europe, <code>SLES-01301</code> · BIOS <code>SCPH-5552</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-legacy-of-kain-soul-reaver-europe-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/legacy-of-kain-soul-reaver/legacy-of-kain-soul-reaver_menu.jpg" alt="Legacy of Kain: Soul Reaver menu" width="49%">
@@ -238,20 +134,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>MDK</strong></td>
-<td width="28%">Europe, <code>SLES-00599</code></td>
-<td width="14%"><code>SCPH-5552</code></td>
-<td width="10%">1</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-mdk-europe-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>MDK</strong> — Europe, <code>SLES-00599</code> · BIOS <code>SCPH-5552</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-mdk-europe-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/mdk/mdk_menu.jpg" alt="MDK menu" width="49%">
@@ -263,20 +146,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>MediEvil</strong></td>
-<td width="28%">USA, <code>SCUS-94227</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">1</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-medievil-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>MediEvil</strong> — USA, <code>SCUS-94227</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-medievil-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/medievil/medievil_menu.jpg" alt="MediEvil menu" width="49%">
@@ -288,20 +158,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>MediEvil II</strong></td>
-<td width="28%">USA, <code>SCUS-94564</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">1</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-medievil-ii-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>MediEvil II</strong> — USA, <code>SCUS-94564</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-medievil-ii-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/medievil-ii/medievil-ii_menu.jpg" alt="MediEvil II menu" width="49%">
@@ -313,20 +170,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Metal Slug X</strong></td>
-<td width="28%">USA, <code>SLUS-01212</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">2</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-metal-slug-x-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Metal Slug X</strong> — USA, <code>SLUS-01212</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-metal-slug-x-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/metal-slug-x/metal-slug-x_menu.jpg" alt="Metal Slug X menu" width="49%">
@@ -338,20 +182,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Monster Rancher 2</strong></td>
-<td width="28%">USA, <code>SLUS-00917</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">2</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-monster-rancher-2-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Monster Rancher 2</strong> — USA, <code>SLUS-00917</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-monster-rancher-2-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/monster-rancher-2/monster-rancher-2_menu.jpg" alt="Monster Rancher 2 menu" width="49%">
@@ -363,20 +194,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Mortal Kombat 4</strong></td>
-<td width="28%">USA, <code>SLUS-00605</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">2</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-mortal-kombat-4-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Mortal Kombat 4</strong> — USA, <code>SLUS-00605</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-mortal-kombat-4-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/mortal-kombat-4/mortal-kombat-4_menu.jpg" alt="Mortal Kombat 4 menu" width="49%">
@@ -388,20 +206,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Nightmare Creatures</strong></td>
-<td width="28%">USA, <code>SLUS-00582</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">1</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-nightmare-creatures-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Nightmare Creatures</strong> — USA, <code>SLUS-00582</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-nightmare-creatures-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/nightmare-creatures/nightmare-creatures_menu.jpg" alt="Nightmare Creatures menu" width="49%">
@@ -413,20 +218,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Oddworld: Abe's Oddysee</strong></td>
-<td width="28%">USA, <code>SLUS-00190</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">1</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-oddworld-abe-s-oddysee-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Oddworld: Abe's Oddysee</strong> — USA, <code>SLUS-00190</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-oddworld-abe-s-oddysee-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/oddworld-abe-s-oddysee/oddworld-abe-s-oddysee_menu.jpg" alt="Oddworld: Abe's Oddysee menu" width="49%">
@@ -438,20 +230,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Quake II</strong></td>
-<td width="28%">USA, <code>SLUS-00757</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">Up to 4*</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-quake-ii-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Quake II</strong> — USA, <code>SLUS-00757</code> · BIOS <code>SCPH-1001</code> · up to 4 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-quake-ii-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/quake-ii/quake-ii_menu.jpg" alt="Quake II menu" width="49%">
@@ -463,20 +242,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Spyro the Dragon</strong></td>
-<td width="28%">Europe, <code>SCES-01438</code></td>
-<td width="14%"><code>SCPH-5552</code></td>
-<td width="10%">1</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-spyro-the-dragon-europe-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Spyro the Dragon</strong> — Europe, <code>SCES-01438</code> · BIOS <code>SCPH-5552</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-spyro-the-dragon-europe-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/spyro-the-dragon/spyro_menu.jpg" alt="Spyro the Dragon menu" width="49%">
@@ -488,20 +254,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Syphon Filter 3</strong></td>
-<td width="28%">USA, <code>SCUS-94640</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">2</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-syphon-filter-3-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Syphon Filter 3</strong> — USA, <code>SCUS-94640</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-syphon-filter-3-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/syphon-filter-3/syphon-filter-3_menu.jpg" alt="Syphon Filter 3 menu" width="49%">
@@ -513,20 +266,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Tenchu: Stealth Assassins</strong></td>
-<td width="28%">USA, <code>SLUS-00706</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">1</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tenchu-stealth-assassins-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Tenchu: Stealth Assassins</strong> — USA, <code>SLUS-00706</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tenchu-stealth-assassins-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/tenchu-stealth-assassins/tenchu-stealth-assassins_menu.jpg" alt="Tenchu: Stealth Assassins menu" width="49%">
@@ -538,20 +278,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Tony Hawk's Pro Skater</strong></td>
-<td width="28%">USA, <code>SLUS-00860</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">2</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Tony Hawk's Pro Skater</strong> — USA, <code>SLUS-00860</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/tony-hawks-pro-skater/tony-hawks-pro-skater_menu.jpg" alt="Tony Hawk's Pro Skater menu" width="49%">
@@ -563,20 +290,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Tony Hawk's Pro Skater 2</strong></td>
-<td width="28%">USA, <code>SLUS-01066</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">2</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-2-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Tony Hawk's Pro Skater 2</strong> — USA, <code>SLUS-01066</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-2-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/tony-hawk-s-pro-skater-2/tony-hawk-s-pro-skater-2_menu.jpg" alt="Tony Hawk's Pro Skater 2 menu" width="49%">
@@ -588,20 +302,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Tony Hawk's Pro Skater 3</strong></td>
-<td width="28%">USA, <code>SLUS-01419</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">2</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-3-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Tony Hawk's Pro Skater 3</strong> — USA, <code>SLUS-01419</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-3-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/tony-hawk-s-pro-skater-3/tony-hawk-s-pro-skater-3_menu.jpg" alt="Tony Hawk's Pro Skater 3 menu" width="49%">
@@ -613,20 +314,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Tony Hawk's Pro Skater 4</strong></td>
-<td width="28%">USA, <code>SLUS-01485</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">2</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-4-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Tony Hawk's Pro Skater 4</strong> — USA, <code>SLUS-01485</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-4-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/tony-hawk-s-pro-skater-4/tony-hawk-s-pro-skater-4_menu.jpg" alt="Tony Hawk's Pro Skater 4 menu" width="49%">
@@ -638,20 +326,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Valkyrie Profile</strong></td>
-<td width="28%">USA, <code>SLUS-01156</code>, two discs</td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">1</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-valkyrie-profile-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Valkyrie Profile</strong> — USA, <code>SLUS-01156</code>, two discs · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-valkyrie-profile-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/valkyrie-profile/valkyrie-profile_menu.jpg" alt="Valkyrie Profile menu" width="49%">
@@ -663,20 +338,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>WipEout</strong></td>
-<td width="28%">Europe, <code>SCES-00010</code></td>
-<td width="14%"><code>SCPH-5552</code></td>
-<td width="10%">1</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-wipeout-europe-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>WipEout</strong> — Europe, <code>SCES-00010</code> · BIOS <code>SCPH-5552</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-wipeout-europe-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/wipeout/wipeout_menu.jpg" alt="WipEout menu" width="49%">
@@ -688,20 +350,7 @@ Select 🪟 to download a Windows kit. A 🐧 icon will mark each Linux kit when
 </details>
 
 <details>
-<summary>
-<table width="100%">
-<tbody>
-<tr>
-<td width="24%"><strong>Xena: Warrior Princess</strong></td>
-<td width="28%">USA, <code>SLUS-00977</code></td>
-<td width="14%"><code>SCPH-1001</code></td>
-<td width="10%">1</td>
-<td width="12%"><strong>Screens</strong></td>
-<td width="12%" align="center"><a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-xena-warrior-princess-usa-v0.2.3-owned-input-win64.zip" title="Download the Windows owned-input kit">🪟</a></td>
-</tr>
-</tbody>
-</table>
-</summary>
+<summary><strong>Xena: Warrior Princess</strong> — USA, <code>SLUS-00977</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-xena-warrior-princess-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
 
 <p align="center">
 <img src="screenshots/v0.2.0/xena-warrior-princess/xena-warrior-princess_menu.jpg" alt="Xena: Warrior Princess menu" width="49%">
