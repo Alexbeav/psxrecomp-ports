@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sort and browse Alexbeav's PlayStation recompilation releases.">
+  <meta name="theme-color" content="#090b10">
+  <title>Alexbeav's PS1 Recomps</title>
+  <link rel="stylesheet" href="catalog.css">
+</head>
+<body>
+  <a class="skip-link" href="#catalog">Skip to catalog</a>
+
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Alexbeav's PS1 Recomps home">
+      <span class="brand-shapes" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span>Alexbeav's PS1 Recomps</span>
+    </a>
+    <a class="github-link" href="https://github.com/Alexbeav/psxrecomp-ports">View on GitHub</a>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">Owned-input build kits · v0.2.3</p>
+        <h1 id="page-title">Game catalog</h1>
+        <p class="lede">Sort the table by title, region, BIOS, or player count. Open a game for screenshots, known issues, and shipped enhancements.</p>
+      </div>
+      <div class="count-card" aria-label="Catalog size">
+        <strong id="total-count">26</strong>
+        <span>available titles</span>
+      </div>
+    </section>
+
+    <section class="catalog-panel" id="catalog" aria-labelledby="catalog-heading">
+      <h2 class="visually-hidden" id="catalog-heading">Available games</h2>
+
+      <div class="toolbar">
+        <label class="field search-field">
+          <span>Search</span>
+          <input id="search" type="search" placeholder="Title, serial, BIOS…" autocomplete="off">
+        </label>
+        <label class="field region-field">
+          <span>Region</span>
+          <select id="region-filter">
+            <option value="all">All regions</option>
+            <option value="Europe">Europe</option>
+            <option value="USA">USA</option>
+          </select>
+        </label>
+        <button class="reset-button" id="reset-filters" type="button">Reset</button>
+        <p class="result-count" id="result-count" aria-live="polite"></p>
+      </div>
+
+      <div class="table-shell">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col" aria-sort="ascending"><button class="sort-button" type="button" data-sort="title">Title <span aria-hidden="true">▲</span></button></th>
+              <th scope="col" aria-sort="none"><button class="sort-button" type="button" data-sort="region">Region <span aria-hidden="true">↕</span></button></th>
+              <th scope="col" aria-sort="none"><button class="sort-button" type="button" data-sort="serial">Original <span aria-hidden="true">↕</span></button></th>
+              <th scope="col" aria-sort="none"><button class="sort-button" type="button" data-sort="bios">BIOS <span aria-hidden="true">↕</span></button></th>
+              <th scope="col" aria-sort="none"><button class="sort-button" type="button" data-sort="players">Players <span aria-hidden="true">↕</span></button></th>
+              <th scope="col">Releases</th>
+            </tr>
+          </thead>
+          <tbody id="catalog-body"></tbody>
+        </table>
+      </div>
+
+      <p class="empty-state" id="empty-state" hidden>No games match these filters.</p>
+      <noscript><p class="empty-state">Enable JavaScript to sort and filter the catalog.</p></noscript>
+    </section>
+
+    <aside class="notice">
+      <strong>Bring your own game and BIOS.</strong>
+      <span>Downloads contain build tools only. They do not contain disc data, BIOS data, or a prebuilt game.</span>
+    </aside>
+  </main>
+
+  <footer>
+    <span>Unofficial, noncommercial ports.</span>
+    <a href="https://github.com/Alexbeav/psxrecomp-ports/blob/main/LICENSE">License</a>
+  </footer>
+
+  <script src="catalog-data.js"></script>
+  <script src="catalog.js"></script>
+</body>
+</html>
