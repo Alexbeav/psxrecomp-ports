@@ -22,6 +22,7 @@ vm.runInContext(read("docs/catalog-data.js"), context, { filename: "catalog-data
 const games = context.window.CATALOG_GAMES;
 const readme = read("README.md");
 const index = read("docs/index.html");
+const bannerPath = path.join(repositoryRoot, "docs", "assets", "alexbeav-ps1-recomps-banner.png");
 const slugs = new Set();
 const titles = new Set();
 
@@ -54,6 +55,9 @@ const readmeRows = (readme.match(/^\| \[[^\n]+\|$/gm) || []).length;
 if (readmeRows !== games.length) fail(`README has ${readmeRows} game rows; expected ${games.length}.`);
 if (!index.includes("catalog-data.js") || !index.includes("catalog.js")) fail("Catalog scripts are not linked from index.html.");
 if (!index.includes('id="catalog-body"')) fail("Catalog table body is missing.");
+if (!fs.existsSync(bannerPath)) fail("The shared banner image is missing.");
+if (!index.includes('src="assets/alexbeav-ps1-recomps-banner.png"')) fail("The site banner is not linked from index.html.");
+if (!readme.includes('src="docs/assets/alexbeav-ps1-recomps-banner.png"')) fail("The README banner is missing.");
 
 if (failures.length) {
   console.error(failures.map((message) => `- ${message}`).join("\n"));
