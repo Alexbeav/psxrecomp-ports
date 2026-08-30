@@ -46,321 +46,38 @@ pinned compiler to a shared space-free cache, uses reliable ZIP extraction,
 and omits the optional embedded Windows icon that triggered the remaining
 resource-compiler failure.
 
-Open a title to see screenshots, known issues, and shipped enhancements.
-Select **Windows** to download the current owned-input kit.
-
-<details>
-<summary><strong>Alien Resurrection</strong> — Europe, <code>SLES-02913</code> · BIOS <code>SCPH-5552</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-alien-resurrection-europe-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/alien-resurrection/alien_resurrection_menu.jpg" alt="Alien Resurrection menu" width="49%">
-<img src="screenshots/v0.2.0/alien-resurrection/alien_resurrection_game.jpg" alt="Alien Resurrection gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Bloody Roar II</strong> — USA, <code>SCUS-94424</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-bloody-roar-ii-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/bloody-roar-ii/bloody-roar-ii_menu.jpg" alt="Bloody Roar II menu" width="49%">
-<img src="screenshots/v0.2.0/bloody-roar-ii/bloody-roar-ii_game.jpg" alt="Bloody Roar II gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Brave Fencer Musashi</strong> — USA, <code>SLUS-00726</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-brave-fencer-musashi-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/brave-fencer-musashi/brave-fencer-musashi_menu.jpg" alt="Brave Fencer Musashi menu" width="49%">
-<img src="screenshots/v0.2.0/brave-fencer-musashi/brave-fencer-musashi_game.jpg" alt="Brave Fencer Musashi gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Diablo</strong> — Europe (Spanish/Portuguese), <code>SLES-01156</code> · BIOS <code>SCPH-5552</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-diablo-europe-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/diablo/diablo_menu.jpg" alt="Diablo menu" width="49%">
-<img src="screenshots/v0.2.0/diablo/diablo_game.jpg" alt="Diablo gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Fighting Force</strong> — USA, <code>SLUS-00433</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-fighting-force-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/fighting-force/fighting-force_menu.jpg" alt="Fighting Force menu" width="49%">
-<img src="screenshots/v0.2.0/fighting-force/fighting-force_game.jpg" alt="Fighting Force gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Jackie Chan Stuntmaster</strong> — USA, <code>SLUS-00684</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-jackie-chan-stuntmaster-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/jackie-chan-stuntmaster/jackie-chan-stuntmaster_menu.jpg" alt="Jackie Chan Stuntmaster menu" width="49%">
-<img src="screenshots/v0.2.0/jackie-chan-stuntmaster/jackie-chan-stuntmaster_game.jpg" alt="Jackie Chan Stuntmaster gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Legacy of Kain: Soul Reaver</strong> — Europe, <code>SLES-01301</code> · BIOS <code>SCPH-5552</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-legacy-of-kain-soul-reaver-europe-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/legacy-of-kain-soul-reaver/legacy-of-kain-soul-reaver_menu.jpg" alt="Legacy of Kain: Soul Reaver menu" width="49%">
-<img src="screenshots/v0.2.0/legacy-of-kain-soul-reaver/legacy-of-kain-soul-reaver_game.jpg" alt="Legacy of Kain: Soul Reaver gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>MDK</strong> — Europe, <code>SLES-00599</code> · BIOS <code>SCPH-5552</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-mdk-europe-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/mdk/mdk_menu.jpg" alt="MDK menu" width="49%">
-<img src="screenshots/v0.2.0/mdk/mdk_game.jpg" alt="MDK gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>MediEvil</strong> — USA, <code>SCUS-94227</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-medievil-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/medievil/medievil_menu.jpg" alt="MediEvil menu" width="49%">
-<img src="screenshots/v0.2.0/medievil/medievil_game.jpg" alt="MediEvil gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>MediEvil II</strong> — USA, <code>SCUS-94564</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-medievil-ii-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/medievil-ii/medievil-ii_menu.jpg" alt="MediEvil II menu" width="49%">
-<img src="screenshots/v0.2.0/medievil-ii/medievil-ii_game.jpg" alt="MediEvil II gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Metal Slug X</strong> — USA, <code>SLUS-01212</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-metal-slug-x-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/metal-slug-x/metal-slug-x_menu.jpg" alt="Metal Slug X menu" width="49%">
-<img src="screenshots/v0.2.0/metal-slug-x/metal-slug-x_game.jpg" alt="Metal Slug X gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Monster Rancher 2</strong> — USA, <code>SLUS-00917</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-monster-rancher-2-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/monster-rancher-2/monster-rancher-2_menu.jpg" alt="Monster Rancher 2 menu" width="49%">
-<img src="screenshots/v0.2.0/monster-rancher-2/monster-rancher-2_game.jpg" alt="Monster Rancher 2 gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> The optional other-CD monster-generation flow is not fully qualified.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Mortal Kombat 4</strong> — USA, <code>SLUS-00605</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-mortal-kombat-4-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/mortal-kombat-4/mortal-kombat-4_menu.jpg" alt="Mortal Kombat 4 menu" width="49%">
-<img src="screenshots/v0.2.0/mortal-kombat-4/mortal-kombat-4_game.jpg" alt="Mortal Kombat 4 gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Nightmare Creatures</strong> — USA, <code>SLUS-00582</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-nightmare-creatures-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/nightmare-creatures/nightmare-creatures_menu.jpg" alt="Nightmare Creatures menu" width="49%">
-<img src="screenshots/v0.2.0/nightmare-creatures/nightmare-creatures_game.jpg" alt="Nightmare Creatures gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Oddworld: Abe's Oddysee</strong> — USA, <code>SLUS-00190</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-oddworld-abe-s-oddysee-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/oddworld-abe-s-oddysee/oddworld-abe-s-oddysee_menu.jpg" alt="Oddworld: Abe's Oddysee menu" width="49%">
-<img src="screenshots/v0.2.0/oddworld-abe-s-oddysee/oddworld-abe-s-oddysee_game.jpg" alt="Oddworld: Abe's Oddysee gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Quake II</strong> — USA, <code>SLUS-00757</code> · BIOS <code>SCPH-1001</code> · up to 4 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-quake-ii-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/quake-ii/quake-ii_menu.jpg" alt="Quake II menu" width="49%">
-<img src="screenshots/v0.2.0/quake-ii/quake-ii_game.jpg" alt="Quake II gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> The four-seat multitap path remains experimental. Representative Player 2 testing also remains unqualified.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Spyro the Dragon</strong> — Europe, <code>SCES-01438</code> · BIOS <code>SCPH-5552</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-spyro-the-dragon-europe-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/spyro-the-dragon/spyro_menu.jpg" alt="Spyro the Dragon menu" width="49%">
-<img src="screenshots/v0.2.0/spyro-the-dragon/spyro_game.jpg" alt="Spyro the Dragon gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Syphon Filter 3</strong> — USA, <code>SCUS-94640</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-syphon-filter-3-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/syphon-filter-3/syphon-filter-3_menu.jpg" alt="Syphon Filter 3 menu" width="49%">
-<img src="screenshots/v0.2.0/syphon-filter-3/syphon-filter-3_game.jpg" alt="Syphon Filter 3 gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Tenchu: Stealth Assassins</strong> — USA, <code>SLUS-00706</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tenchu-stealth-assassins-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/tenchu-stealth-assassins/tenchu-stealth-assassins_menu.jpg" alt="Tenchu: Stealth Assassins menu" width="49%">
-<img src="screenshots/v0.2.0/tenchu-stealth-assassins/tenchu-stealth-assassins_game.jpg" alt="Tenchu: Stealth Assassins gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Tony Hawk's Pro Skater</strong> — USA, <code>SLUS-00860</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/tony-hawks-pro-skater/tony-hawks-pro-skater_menu.jpg" alt="Tony Hawk's Pro Skater menu" width="49%">
-<img src="screenshots/v0.2.0/tony-hawks-pro-skater/tony-hawks-pro-skater_game.jpg" alt="Tony Hawk's Pro Skater gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> Music sometimes failed to start in one Tony Hawk title during operator testing. The exact title is not known. Skipping one track starts the next.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Tony Hawk's Pro Skater 2</strong> — USA, <code>SLUS-01066</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-2-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/tony-hawk-s-pro-skater-2/tony-hawk-s-pro-skater-2_menu.jpg" alt="Tony Hawk's Pro Skater 2 menu" width="49%">
-<img src="screenshots/v0.2.0/tony-hawk-s-pro-skater-2/tony-hawk-s-pro-skater-2_game.jpg" alt="Tony Hawk's Pro Skater 2 gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> Music sometimes failed to start in one Tony Hawk title during operator testing. The exact title is not known. Skipping one track starts the next.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Tony Hawk's Pro Skater 3</strong> — USA, <code>SLUS-01419</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-3-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/tony-hawk-s-pro-skater-3/tony-hawk-s-pro-skater-3_menu.jpg" alt="Tony Hawk's Pro Skater 3 menu" width="49%">
-<img src="screenshots/v0.2.0/tony-hawk-s-pro-skater-3/tony-hawk-s-pro-skater-3_game.jpg" alt="Tony Hawk's Pro Skater 3 gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> Music sometimes failed to start in one Tony Hawk title during operator testing. The exact title is not known. Skipping one track starts the next.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Tony Hawk's Pro Skater 4</strong> — USA, <code>SLUS-01485</code> · BIOS <code>SCPH-1001</code> · 2 players · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-4-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/tony-hawk-s-pro-skater-4/tony-hawk-s-pro-skater-4_menu.jpg" alt="Tony Hawk's Pro Skater 4 menu" width="49%">
-<img src="screenshots/v0.2.0/tony-hawk-s-pro-skater-4/tony-hawk-s-pro-skater-4_game.jpg" alt="Tony Hawk's Pro Skater 4 gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> Music sometimes failed to start in one Tony Hawk title during operator testing. The exact title is not known. Skipping one track starts the next.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Valkyrie Profile</strong> — USA, <code>SLUS-01156</code>, two discs · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-valkyrie-profile-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/valkyrie-profile/valkyrie-profile_menu.jpg" alt="Valkyrie Profile menu" width="49%">
-<img src="screenshots/v0.2.0/valkyrie-profile/valkyrie-profile_game.jpg" alt="Valkyrie Profile gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> The later campaign disc transition is not fully qualified.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>WipEout</strong> — Europe, <code>SCES-00010</code> · BIOS <code>SCPH-5552</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-wipeout-europe-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/wipeout/wipeout_menu.jpg" alt="WipEout menu" width="49%">
-<img src="screenshots/v0.2.0/wipeout/wipeout_game.jpg" alt="WipEout gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> Minor visible geometry gaps remain.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
-<details>
-<summary><strong>Xena: Warrior Princess</strong> — USA, <code>SLUS-00977</code> · BIOS <code>SCPH-1001</code> · 1 player · <a href="https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-xena-warrior-princess-usa-v0.2.3-owned-input-win64.zip"><kbd>Windows</kbd></a></summary>
-
-<p align="center">
-<img src="screenshots/v0.2.0/xena-warrior-princess/xena-warrior-princess_menu.jpg" alt="Xena: Warrior Princess menu" width="49%">
-<img src="screenshots/v0.2.0/xena-warrior-princess/xena-warrior-princess_game.jpg" alt="Xena: Warrior Princess gameplay" width="49%">
-</p>
-
-<p><strong>Known issues:</strong> No title-specific issue is listed. Release-wide limits still apply.</p>
-<p><strong>Shipped enhancements:</strong> None. This release is a bare recompilation.</p>
-</details>
-
+<!-- BEGIN GENERATED GAME CATALOG -->
+Use the [sortable game catalog](https://alexbeav.github.io/psxrecomp-ports/) to sort by title, region, BIOS, or player count. Select a title there to see screenshots, known issues, and shipped enhancements.
+
+| Title | Region | Supported original | BIOS | Players | Releases |
+| --- | --- | --- | --- | ---: | --- |
+| [Alien Resurrection](https://alexbeav.github.io/psxrecomp-ports/#alien-resurrection) | Europe | `SLES-02913` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-alien-resurrection-europe-v0.2.3-owned-input-win64.zip) |
+| [Bloody Roar II](https://alexbeav.github.io/psxrecomp-ports/#bloody-roar-ii) | USA | `SCUS-94424` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-bloody-roar-ii-usa-v0.2.3-owned-input-win64.zip) |
+| [Brave Fencer Musashi](https://alexbeav.github.io/psxrecomp-ports/#brave-fencer-musashi) | USA | `SLUS-00726` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-brave-fencer-musashi-usa-v0.2.3-owned-input-win64.zip) |
+| [Diablo](https://alexbeav.github.io/psxrecomp-ports/#diablo) | Europe (Spanish/Portuguese) | `SLES-01156` | `SCPH-5552` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-diablo-europe-v0.2.3-owned-input-win64.zip) |
+| [Fighting Force](https://alexbeav.github.io/psxrecomp-ports/#fighting-force) | USA | `SLUS-00433` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-fighting-force-usa-v0.2.3-owned-input-win64.zip) |
+| [Jackie Chan Stuntmaster](https://alexbeav.github.io/psxrecomp-ports/#jackie-chan-stuntmaster) | USA | `SLUS-00684` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-jackie-chan-stuntmaster-usa-v0.2.3-owned-input-win64.zip) |
+| [Legacy of Kain: Soul Reaver](https://alexbeav.github.io/psxrecomp-ports/#legacy-of-kain-soul-reaver) | Europe | `SLES-01301` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-legacy-of-kain-soul-reaver-europe-v0.2.3-owned-input-win64.zip) |
+| [MDK](https://alexbeav.github.io/psxrecomp-ports/#mdk) | Europe | `SLES-00599` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-mdk-europe-v0.2.3-owned-input-win64.zip) |
+| [MediEvil](https://alexbeav.github.io/psxrecomp-ports/#medievil) | USA | `SCUS-94227` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-medievil-usa-v0.2.3-owned-input-win64.zip) |
+| [MediEvil II](https://alexbeav.github.io/psxrecomp-ports/#medievil-ii) | USA | `SCUS-94564` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-medievil-ii-usa-v0.2.3-owned-input-win64.zip) |
+| [Metal Slug X](https://alexbeav.github.io/psxrecomp-ports/#metal-slug-x) | USA | `SLUS-01212` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-metal-slug-x-usa-v0.2.3-owned-input-win64.zip) |
+| [Monster Rancher 2](https://alexbeav.github.io/psxrecomp-ports/#monster-rancher-2) | USA | `SLUS-00917` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-monster-rancher-2-usa-v0.2.3-owned-input-win64.zip) |
+| [Mortal Kombat 4](https://alexbeav.github.io/psxrecomp-ports/#mortal-kombat-4) | USA | `SLUS-00605` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-mortal-kombat-4-usa-v0.2.3-owned-input-win64.zip) |
+| [Nightmare Creatures](https://alexbeav.github.io/psxrecomp-ports/#nightmare-creatures) | USA | `SLUS-00582` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-nightmare-creatures-usa-v0.2.3-owned-input-win64.zip) |
+| [Oddworld: Abe's Oddysee](https://alexbeav.github.io/psxrecomp-ports/#oddworld-abe-s-oddysee) | USA | `SLUS-00190` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-oddworld-abe-s-oddysee-usa-v0.2.3-owned-input-win64.zip) |
+| [Quake II](https://alexbeav.github.io/psxrecomp-ports/#quake-ii) | USA | `SLUS-00757` | `SCPH-1001` | Up to 4 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-quake-ii-usa-v0.2.3-owned-input-win64.zip) |
+| [Spyro the Dragon](https://alexbeav.github.io/psxrecomp-ports/#spyro-the-dragon) | Europe | `SCES-01438` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-spyro-the-dragon-europe-v0.2.3-owned-input-win64.zip) |
+| [Syphon Filter 3](https://alexbeav.github.io/psxrecomp-ports/#syphon-filter-3) | USA | `SCUS-94640` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-syphon-filter-3-usa-v0.2.3-owned-input-win64.zip) |
+| [Tenchu: Stealth Assassins](https://alexbeav.github.io/psxrecomp-ports/#tenchu-stealth-assassins) | USA | `SLUS-00706` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tenchu-stealth-assassins-usa-v0.2.3-owned-input-win64.zip) |
+| [Tony Hawk's Pro Skater](https://alexbeav.github.io/psxrecomp-ports/#tony-hawks-pro-skater) | USA | `SLUS-00860` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-usa-v0.2.3-owned-input-win64.zip) |
+| [Tony Hawk's Pro Skater 2](https://alexbeav.github.io/psxrecomp-ports/#tony-hawk-s-pro-skater-2) | USA | `SLUS-01066` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-2-usa-v0.2.3-owned-input-win64.zip) |
+| [Tony Hawk's Pro Skater 3](https://alexbeav.github.io/psxrecomp-ports/#tony-hawk-s-pro-skater-3) | USA | `SLUS-01419` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-3-usa-v0.2.3-owned-input-win64.zip) |
+| [Tony Hawk's Pro Skater 4](https://alexbeav.github.io/psxrecomp-ports/#tony-hawk-s-pro-skater-4) | USA | `SLUS-01485` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-4-usa-v0.2.3-owned-input-win64.zip) |
+| [Valkyrie Profile](https://alexbeav.github.io/psxrecomp-ports/#valkyrie-profile) | USA | `SLUS-01156 · 2 discs` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-valkyrie-profile-usa-v0.2.3-owned-input-win64.zip) |
+| [WipEout](https://alexbeav.github.io/psxrecomp-ports/#wipeout) | Europe | `SCES-00010` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-wipeout-europe-v0.2.3-owned-input-win64.zip) |
+| [Xena: Warrior Princess](https://alexbeav.github.io/psxrecomp-ports/#xena-warrior-princess) | USA | `SLUS-00977` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-xena-warrior-princess-usa-v0.2.3-owned-input-win64.zip) |
+<!-- END GENERATED GAME CATALOG -->
 
 Colin McRae Rally 2.0 was removed from this wave after operator testing found
 major graphical issues. Nightmare Creatures takes its place. It was not silently
