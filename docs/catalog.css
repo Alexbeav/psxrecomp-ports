@@ -49,10 +49,27 @@ button, input, select { font: inherit; }
 .skip-link:focus { transform: translateY(0); }
 
 .site-header,
+.site-banner,
 main,
 footer {
   width: min(1180px, calc(100% - 2rem));
   margin-inline: auto;
+}
+
+.site-banner {
+  margin-top: 1rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #05070b;
+  box-shadow: var(--shadow);
+}
+
+.site-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 5 / 1;
+  object-fit: cover;
 }
 
 .site-header {
@@ -401,7 +418,7 @@ footer {
 }
 
 @media (max-width: 540px) {
-  .site-header, main, footer { width: min(100% - 1rem, 1180px); }
+  .site-header, .site-banner, main, footer { width: min(100% - 1rem, 1180px); }
   .brand { font-size: .76rem; }
   .github-link { font-size: .75rem; }
   .toolbar { grid-template-columns: 1fr; }

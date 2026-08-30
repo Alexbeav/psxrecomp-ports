@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/alexbeav-ps1-recomps-banner.png" alt="Alexbeav's PS1 Recomps — unofficial noncommercial recompilation build kits" width="100%">
+</p>
+
 # PSXRecomp Ports
 
 Unofficial, noncommercial PlayStation recompilation releases for Windows.
