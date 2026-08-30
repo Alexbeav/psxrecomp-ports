@@ -58,6 +58,7 @@ if (!index.includes('id="catalog-body"')) fail("Catalog table body is missing.")
 if (!fs.existsSync(bannerPath)) fail("The shared banner image is missing.");
 if (!index.includes('src="assets/alexbeav-ps1-recomps-banner.png"')) fail("The site banner is not linked from index.html.");
 if (!readme.includes('src="docs/assets/alexbeav-ps1-recomps-banner.png"')) fail("The README banner is missing.");
+if (index.indexOf('<div class="site-banner">') > index.indexOf('<section class="intro"')) fail("The site banner must appear before the catalog heading.");
 
 if (failures.length) {
   console.error(failures.map((message) => `- ${message}`).join("\n"));
