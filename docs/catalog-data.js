@@ -138,5 +138,173 @@ window.CATALOG_GAMES = [
     slug: "xena-warrior-princess", title: "Xena: Warrior Princess", region: "USA", serial: "SLUS-00977", bios: "SCPH-1001", players: 1, playersLabel: "1 player", discs: 1,
     windows: "https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-xena-warrior-princess-usa-v0.2.3-owned-input-win64.zip",
     images: [["xena-warrior-princess/xena-warrior-princess_menu.jpg", "Xena: Warrior Princess menu"], ["xena-warrior-princess/xena-warrior-princess_game.jpg", "Xena: Warrior Princess gameplay"]]
+  },
+  {
+    slug: "mega-man-legends", title: "Mega Man Legends", region: "Europe", serial: "SLES-01485", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/mega-man-legends-recomp/releases/download/v0.3.0/Mega-Man-Legends-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/mega-man-legends-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "vampire-hunter-d", title: "Vampire Hunter D", region: "USA", serial: "SLUS-01138", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/vampire-hunter-d-recomp/releases/download/v0.3.0/Vampire-Hunter-D-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/vampire-hunter-d-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "ace-combat-3-electrosphere", title: "Ace Combat 3: Electrosphere (Japan)", region: "Japan", serial: "SLPS-02020 · SLPS-02021", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 2,
+    windows: "https://github.com/Alexbeav/ace-combat-3-electrosphere-recomp/releases/download/v0.3.0/Ace-Combat-3-Electrosphere-Japan-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/ace-combat-3-electrosphere-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "ace-combat-3-electrosphere-usa", title: "Ace Combat 3: Electrosphere (USA)", region: "USA", serial: "SLUS-00972", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/ace-combat-3-electrosphere-usa-recomp/releases/download/v0.3.0/Ace-Combat-3-Electrosphere-USA-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/ace-combat-3-electrosphere-usa-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "ape-escape", title: "Ape Escape", region: "USA", serial: "SCUS-94423", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/ape-escape-recomp/releases/download/v0.3.0/Ape-Escape-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/ape-escape-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "die-hard-trilogy", title: "Die Hard Trilogy", region: "USA", serial: "SLUS-00119", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/die-hard-trilogy-recomp/releases/download/v0.3.0/Die-Hard-Trilogy-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/die-hard-trilogy-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "fade-to-black", title: "Fade to Black", region: "USA", serial: "SLUS-00236", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/fade-to-black-recomp/releases/download/v0.3.0/Fade-to-Black-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/fade-to-black-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "driver", title: "Driver", region: "USA", serial: "SLUS-00842", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/driver-recomp/releases/download/v0.3.0/Driver-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/driver-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "the-mummy", title: "The Mummy", region: "USA", serial: "SLUS-01187", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/the-mummy-recomp/releases/download/v0.3.0/The-Mummy-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/the-mummy-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "men-in-black-the-game", title: "Men in Black: The Game", region: "Europe", serial: "SLES-01047", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/men-in-black-the-game-recomp/releases/download/v0.3.0/Men-in-Black-The-Game-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/men-in-black-the-game-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "kula-world", title: "Kula World", region: "Europe", serial: "SCES-01000", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/kula-world-recomp/releases/download/v0.3.0/Kula-World-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/kula-world-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "the-lost-world-jurassic-park-special-edition", title: "The Lost World: Jurassic Park Special Edition", region: "USA", serial: "SLUS-00515", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/the-lost-world-jurassic-park-special-edition-recomp/releases/download/v0.3.0/The-Lost-World-Jurassic-Park-Special-Edition-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/the-lost-world-jurassic-park-special-edition-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "koudelka", title: "Koudelka", region: "Europe", serial: "SLES-02897 · SLES-12897 · SLES-22897 · SLES-32897", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 4,
+    windows: "https://github.com/Alexbeav/koudelka-recomp/releases/download/v0.3.0/Koudelka-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/koudelka-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "kings-field", title: "King's Field", region: "Japan", serial: "SLPS-00017", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/kings-field-recomp/releases/download/v0.3.0/King-s-Field-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/kings-field-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "vigilante-8", title: "Vigilante 8", region: "Europe", serial: "SLES-01212", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/vigilante-8-recomp/releases/download/v0.3.0/Vigilante-8-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/vigilante-8-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "alundra", title: "Alundra", region: "Europe", serial: "SLES-01135", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/alundra-recomp/releases/download/v0.3.0/Alundra-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/alundra-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "digimon-world-2003", title: "Digimon World 2003", region: "Europe", serial: "SLES-03936", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/digimon-world-2003-recomp/releases/download/v0.3.0/Digimon-World-2003-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/digimon-world-2003-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "armored-core", title: "Armored Core", region: "Europe", serial: "SCES-00842", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/armored-core-recomp/releases/download/v0.3.0/Armored-Core-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/armored-core-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "colin-mcrae-rally-2-0", title: "Colin McRae Rally 2.0", region: "USA", serial: "SLUS-01222", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/colin-mcrae-rally-2-0-recomp/releases/download/v0.3.0/Colin-McRae-Rally-2-0-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/colin-mcrae-rally-2-0-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "duke-nukem-land-of-the-babes", title: "Duke Nukem: Land of the Babes", region: "USA", serial: "SLUS-01002", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/duke-nukem-land-of-the-babes-recomp/releases/download/v0.3.0/Duke-Nukem-Land-of-the-Babes-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/duke-nukem-land-of-the-babes-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "destruction-derby-2", title: "Destruction Derby 2", region: "USA", serial: "SCUS-94350", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/destruction-derby-2-recomp/releases/download/v0.3.0/Destruction-Derby-2-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/destruction-derby-2-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "duke-nukem-time-to-kill", title: "Duke Nukem: Time to Kill", region: "USA", serial: "SLUS-00583", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/duke-nukem-time-to-kill-recomp/releases/download/v0.3.0/Duke-Nukem-Time-to-Kill-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/duke-nukem-time-to-kill-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "in-cold-blood", title: "In Cold Blood", region: "USA", serial: "SLUS-01294 · SLUS-01314", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 2,
+    windows: "https://github.com/Alexbeav/in-cold-blood-recomp/releases/download/v0.3.0/In-Cold-Blood-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/in-cold-blood-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "blood-omen-legacy-of-kain", title: "Blood Omen: Legacy of Kain", region: "USA", serial: "SLUS-00027", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
+    windows: "https://github.com/Alexbeav/blood-omen-legacy-of-kain-recomp/releases/download/v0.3.0/Blood-Omen-Legacy-of-Kain-Recomp-0.3.0-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/blood-omen-legacy-of-kain-recomp",
+    images: [],
+    knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
   }
 ];

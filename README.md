@@ -19,8 +19,10 @@ locked-frame-rate, or laptop-performance claim is being made yet.
 Each download is an **owned-input build kit**, not a playable executable. The
 kit contains no disc data, retail BIOS, generated game code, generated retail-
 BIOS code, or prebuilt title executable. You provide dumps of the matching
-original disc and retail BIOS from material you own; the kit verifies both and
-generates the title on your PC. OpenBIOS is neither included nor accepted.
+original disc from material you own. Wave 1 `v0.2.3` kits require the requested
+retail BIOS. Wave 2 `v0.3.0` kits recommend
+a supported retail SCPH BIOS that matches the game's region and include the
+approved MIT-licensed OpenBIOS fallback. The kit generates the title on your PC.
 
 1. Download and extract one kit to a normal writable folder such as
    `Documents\PSXRecomp` (not `Program Files`).
@@ -35,6 +37,13 @@ built executable. After verifying the download, choose **More info → Run
 anyway** if you wish to continue. To verify a kit manually, run
 `certutil -hashfile <download.zip> SHA256` and compare it with the adjacent
 `.sha256` file or the release-wide `SHA256SUMS.txt`.
+
+## Wave 2 v0.3.0 Windows games
+
+Wave 2 adds 24 Windows x64 source-only setup packages. Each title has its own
+public source repository and release. The [Wave 2 manifest](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.3.0/RELEASE-MANIFEST.json)
+binds every source commit, package size, and SHA-256 value. Linux and macOS
+packaging is deferred.
 
 ## v0.2.3 owned-input games
 
@@ -55,16 +64,36 @@ Use the [sortable game catalog](https://alexbeav.github.io/psxrecomp-ports/) to 
 
 | Title | Region | Supported original | BIOS | Players | Releases |
 | --- | --- | --- | --- | ---: | --- |
+| [Ace Combat 3: Electrosphere (Japan)](https://alexbeav.github.io/psxrecomp-ports/#ace-combat-3-electrosphere) | Japan | `SLPS-02020 · SLPS-02021 · 2 discs` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/ace-combat-3-electrosphere-recomp/releases/download/v0.3.0/Ace-Combat-3-Electrosphere-Japan-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/ace-combat-3-electrosphere-recomp) |
+| [Ace Combat 3: Electrosphere (USA)](https://alexbeav.github.io/psxrecomp-ports/#ace-combat-3-electrosphere-usa) | USA | `SLUS-00972` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/ace-combat-3-electrosphere-usa-recomp/releases/download/v0.3.0/Ace-Combat-3-Electrosphere-USA-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/ace-combat-3-electrosphere-usa-recomp) |
 | [Alien Resurrection](https://alexbeav.github.io/psxrecomp-ports/#alien-resurrection) | Europe | `SLES-02913` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-alien-resurrection-europe-v0.2.3-owned-input-win64.zip) |
+| [Alundra](https://alexbeav.github.io/psxrecomp-ports/#alundra) | Europe | `SLES-01135` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/alundra-recomp/releases/download/v0.3.0/Alundra-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/alundra-recomp) |
+| [Ape Escape](https://alexbeav.github.io/psxrecomp-ports/#ape-escape) | USA | `SCUS-94423` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/ape-escape-recomp/releases/download/v0.3.0/Ape-Escape-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/ape-escape-recomp) |
+| [Armored Core](https://alexbeav.github.io/psxrecomp-ports/#armored-core) | Europe | `SCES-00842` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/armored-core-recomp/releases/download/v0.3.0/Armored-Core-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/armored-core-recomp) |
+| [Blood Omen: Legacy of Kain](https://alexbeav.github.io/psxrecomp-ports/#blood-omen-legacy-of-kain) | USA | `SLUS-00027` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/blood-omen-legacy-of-kain-recomp/releases/download/v0.3.0/Blood-Omen-Legacy-of-Kain-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/blood-omen-legacy-of-kain-recomp) |
 | [Bloody Roar II](https://alexbeav.github.io/psxrecomp-ports/#bloody-roar-ii) | USA | `SCUS-94424` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-bloody-roar-ii-usa-v0.2.3-owned-input-win64.zip) |
 | [Brave Fencer Musashi](https://alexbeav.github.io/psxrecomp-ports/#brave-fencer-musashi) | USA | `SLUS-00726` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-brave-fencer-musashi-usa-v0.2.3-owned-input-win64.zip) |
+| [Colin McRae Rally 2.0](https://alexbeav.github.io/psxrecomp-ports/#colin-mcrae-rally-2-0) | USA | `SLUS-01222` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/colin-mcrae-rally-2-0-recomp/releases/download/v0.3.0/Colin-McRae-Rally-2-0-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/colin-mcrae-rally-2-0-recomp) |
+| [Destruction Derby 2](https://alexbeav.github.io/psxrecomp-ports/#destruction-derby-2) | USA | `SCUS-94350` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/destruction-derby-2-recomp/releases/download/v0.3.0/Destruction-Derby-2-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/destruction-derby-2-recomp) |
 | [Diablo](https://alexbeav.github.io/psxrecomp-ports/#diablo) | Europe (Spanish/Portuguese) | `SLES-01156` | `SCPH-5552` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-diablo-europe-v0.2.3-owned-input-win64.zip) |
+| [Die Hard Trilogy](https://alexbeav.github.io/psxrecomp-ports/#die-hard-trilogy) | USA | `SLUS-00119` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/die-hard-trilogy-recomp/releases/download/v0.3.0/Die-Hard-Trilogy-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/die-hard-trilogy-recomp) |
+| [Digimon World 2003](https://alexbeav.github.io/psxrecomp-ports/#digimon-world-2003) | Europe | `SLES-03936` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/digimon-world-2003-recomp/releases/download/v0.3.0/Digimon-World-2003-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/digimon-world-2003-recomp) |
+| [Driver](https://alexbeav.github.io/psxrecomp-ports/#driver) | USA | `SLUS-00842` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/driver-recomp/releases/download/v0.3.0/Driver-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/driver-recomp) |
+| [Duke Nukem: Land of the Babes](https://alexbeav.github.io/psxrecomp-ports/#duke-nukem-land-of-the-babes) | USA | `SLUS-01002` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/duke-nukem-land-of-the-babes-recomp/releases/download/v0.3.0/Duke-Nukem-Land-of-the-Babes-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/duke-nukem-land-of-the-babes-recomp) |
+| [Duke Nukem: Time to Kill](https://alexbeav.github.io/psxrecomp-ports/#duke-nukem-time-to-kill) | USA | `SLUS-00583` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/duke-nukem-time-to-kill-recomp/releases/download/v0.3.0/Duke-Nukem-Time-to-Kill-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/duke-nukem-time-to-kill-recomp) |
+| [Fade to Black](https://alexbeav.github.io/psxrecomp-ports/#fade-to-black) | USA | `SLUS-00236` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/fade-to-black-recomp/releases/download/v0.3.0/Fade-to-Black-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/fade-to-black-recomp) |
 | [Fighting Force](https://alexbeav.github.io/psxrecomp-ports/#fighting-force) | USA | `SLUS-00433` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-fighting-force-usa-v0.2.3-owned-input-win64.zip) |
+| [In Cold Blood](https://alexbeav.github.io/psxrecomp-ports/#in-cold-blood) | USA | `SLUS-01294 · SLUS-01314 · 2 discs` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/in-cold-blood-recomp/releases/download/v0.3.0/In-Cold-Blood-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/in-cold-blood-recomp) |
 | [Jackie Chan Stuntmaster](https://alexbeav.github.io/psxrecomp-ports/#jackie-chan-stuntmaster) | USA | `SLUS-00684` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-jackie-chan-stuntmaster-usa-v0.2.3-owned-input-win64.zip) |
+| [King's Field](https://alexbeav.github.io/psxrecomp-ports/#kings-field) | Japan | `SLPS-00017` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/kings-field-recomp/releases/download/v0.3.0/King-s-Field-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/kings-field-recomp) |
+| [Koudelka](https://alexbeav.github.io/psxrecomp-ports/#koudelka) | Europe | `SLES-02897 · SLES-12897 · SLES-22897 · SLES-32897 · 4 discs` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/koudelka-recomp/releases/download/v0.3.0/Koudelka-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/koudelka-recomp) |
+| [Kula World](https://alexbeav.github.io/psxrecomp-ports/#kula-world) | Europe | `SCES-01000` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/kula-world-recomp/releases/download/v0.3.0/Kula-World-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/kula-world-recomp) |
 | [Legacy of Kain: Soul Reaver](https://alexbeav.github.io/psxrecomp-ports/#legacy-of-kain-soul-reaver) | Europe | `SLES-01301` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-legacy-of-kain-soul-reaver-europe-v0.2.3-owned-input-win64.zip) |
 | [MDK](https://alexbeav.github.io/psxrecomp-ports/#mdk) | Europe | `SLES-00599` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-mdk-europe-v0.2.3-owned-input-win64.zip) |
 | [MediEvil](https://alexbeav.github.io/psxrecomp-ports/#medievil) | USA | `SCUS-94227` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-medievil-usa-v0.2.3-owned-input-win64.zip) |
 | [MediEvil II](https://alexbeav.github.io/psxrecomp-ports/#medievil-ii) | USA | `SCUS-94564` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-medievil-ii-usa-v0.2.3-owned-input-win64.zip) |
+| [Mega Man Legends](https://alexbeav.github.io/psxrecomp-ports/#mega-man-legends) | Europe | `SLES-01485` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/mega-man-legends-recomp/releases/download/v0.3.0/Mega-Man-Legends-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/mega-man-legends-recomp) |
+| [Men in Black: The Game](https://alexbeav.github.io/psxrecomp-ports/#men-in-black-the-game) | Europe | `SLES-01047` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/men-in-black-the-game-recomp/releases/download/v0.3.0/Men-in-Black-The-Game-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/men-in-black-the-game-recomp) |
 | [Metal Slug X](https://alexbeav.github.io/psxrecomp-ports/#metal-slug-x) | USA | `SLUS-01212` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-metal-slug-x-usa-v0.2.3-owned-input-win64.zip) |
 | [Monster Rancher 2](https://alexbeav.github.io/psxrecomp-ports/#monster-rancher-2) | USA | `SLUS-00917` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-monster-rancher-2-usa-v0.2.3-owned-input-win64.zip) |
 | [Mortal Kombat 4](https://alexbeav.github.io/psxrecomp-ports/#mortal-kombat-4) | USA | `SLUS-00605` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/mortal-kombat-4-recomp/releases/download/v0.3.5/mortal-kombat-4-recomp-0.3.5-windows-x64.zip) · [Linux](https://github.com/Alexbeav/mortal-kombat-4-recomp/releases/download/v0.3.5/mortal-kombat-4-recomp-0.3.5-linux-x64.zip) · [Repository](https://github.com/Alexbeav/mortal-kombat-4-recomp) |
@@ -74,18 +103,19 @@ Use the [sortable game catalog](https://alexbeav.github.io/psxrecomp-ports/) to 
 | [Spyro the Dragon](https://alexbeav.github.io/psxrecomp-ports/#spyro-the-dragon) | Europe | `SCES-01438` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-spyro-the-dragon-europe-v0.2.3-owned-input-win64.zip) |
 | [Syphon Filter 3](https://alexbeav.github.io/psxrecomp-ports/#syphon-filter-3) | USA | `SCUS-94640` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-syphon-filter-3-usa-v0.2.3-owned-input-win64.zip) |
 | [Tenchu: Stealth Assassins](https://alexbeav.github.io/psxrecomp-ports/#tenchu-stealth-assassins) | USA | `SLUS-00706` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tenchu-stealth-assassins-usa-v0.2.3-owned-input-win64.zip) |
+| [The Lost World: Jurassic Park Special Edition](https://alexbeav.github.io/psxrecomp-ports/#the-lost-world-jurassic-park-special-edition) | USA | `SLUS-00515` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/the-lost-world-jurassic-park-special-edition-recomp/releases/download/v0.3.0/The-Lost-World-Jurassic-Park-Special-Edition-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/the-lost-world-jurassic-park-special-edition-recomp) |
+| [The Mummy](https://alexbeav.github.io/psxrecomp-ports/#the-mummy) | USA | `SLUS-01187` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/the-mummy-recomp/releases/download/v0.3.0/The-Mummy-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/the-mummy-recomp) |
 | [Tony Hawk's Pro Skater](https://alexbeav.github.io/psxrecomp-ports/#tony-hawks-pro-skater) | USA | `SLUS-00860` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-usa-v0.2.3-owned-input-win64.zip) |
 | [Tony Hawk's Pro Skater 2](https://alexbeav.github.io/psxrecomp-ports/#tony-hawk-s-pro-skater-2) | USA | `SLUS-01066` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-2-usa-v0.2.3-owned-input-win64.zip) |
 | [Tony Hawk's Pro Skater 3](https://alexbeav.github.io/psxrecomp-ports/#tony-hawk-s-pro-skater-3) | USA | `SLUS-01419` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-3-usa-v0.2.3-owned-input-win64.zip) |
 | [Tony Hawk's Pro Skater 4](https://alexbeav.github.io/psxrecomp-ports/#tony-hawk-s-pro-skater-4) | USA | `SLUS-01485` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-4-usa-v0.2.3-owned-input-win64.zip) |
 | [Valkyrie Profile](https://alexbeav.github.io/psxrecomp-ports/#valkyrie-profile) | USA | `SLUS-01156 · 2 discs` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-valkyrie-profile-usa-v0.2.3-owned-input-win64.zip) |
+| [Vampire Hunter D](https://alexbeav.github.io/psxrecomp-ports/#vampire-hunter-d) | USA | `SLUS-01138` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/vampire-hunter-d-recomp/releases/download/v0.3.0/Vampire-Hunter-D-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/vampire-hunter-d-recomp) |
+| [Vigilante 8](https://alexbeav.github.io/psxrecomp-ports/#vigilante-8) | Europe | `SLES-01212` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/vigilante-8-recomp/releases/download/v0.3.0/Vigilante-8-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/vigilante-8-recomp) |
 | [WipEout](https://alexbeav.github.io/psxrecomp-ports/#wipeout) | Europe | `SCES-00010` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-wipeout-europe-v0.2.3-owned-input-win64.zip) |
 | [Xena: Warrior Princess](https://alexbeav.github.io/psxrecomp-ports/#xena-warrior-princess) | USA | `SLUS-00977` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-xena-warrior-princess-usa-v0.2.3-owned-input-win64.zip) |
 <!-- END GENERATED GAME CATALOG -->
 
-Colin McRae Rally 2.0 was removed from this wave after operator testing found
-major graphical issues. Nightmare Creatures takes its place. It was not silently
-published as a passing title.
 
 ## Standard PSXRecomp features
 

@@ -86,10 +86,10 @@
               <h3>Project repository</h3>
               <p><a href="${escapeHtml(game.repository)}">View the public repository and all releases.</a></p>
             </section>` : "";
-    const screenshots = game.images.map(([path, alt], index) => `<figure>
+    const screenshots = game.images.length ? game.images.map(([path, alt], index) => `<figure>
       <img src="${screenshotBase}${escapeHtml(path)}" alt="${escapeHtml(alt)}" loading="lazy">
       <figcaption>${index === 0 ? "Menu" : "Gameplay"}</figcaption>
-    </figure>`).join("");
+    </figure>`).join("") : '<p class="muted">Screenshots are not published for this title yet.</p>';
 
     return `<tr class="details-row" id="${escapeHtml(game.slug)}-details">
       <td colspan="6">

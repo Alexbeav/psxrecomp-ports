@@ -39,7 +39,7 @@ for (const game of games) {
   titles.add(game.title);
 
   if (!Number.isInteger(game.players) || game.players < 1) fail(`${game.title}: invalid player count.`);
-  if (!Array.isArray(game.images) || game.images.length !== 2) fail(`${game.title}: expected two screenshots.`);
+  if (!Array.isArray(game.images) || ![0, 2].includes(game.images.length)) fail(`${game.title}: expected zero or two screenshots.`);
   const releaseRepository = game.repository || "https://github.com/Alexbeav/psxrecomp-ports";
   if (!releaseRepository.startsWith("https://github.com/Alexbeav/")) fail(`${game.title}: unexpected repository URL.`);
   if (!game.windows.startsWith(`${releaseRepository}/releases/download/`)) fail(`${game.title}: unexpected Windows release URL.`);
@@ -69,4 +69,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Catalog validation passed for ${games.length} games and ${games.length * 2} screenshots.`);
+console.log(`Catalog validation passed for ${games.length} games and ${games.reduce((count, game) => count + game.images.length, 0)} screenshots.`);
