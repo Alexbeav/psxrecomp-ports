@@ -40,7 +40,10 @@ for (const game of games) {
 
   if (!Number.isInteger(game.players) || game.players < 1) fail(`${game.title}: invalid player count.`);
   if (!Array.isArray(game.images) || game.images.length !== 2) fail(`${game.title}: expected two screenshots.`);
-  if (!game.windows.startsWith("https://github.com/Alexbeav/psxrecomp-ports/releases/download/")) fail(`${game.title}: unexpected Windows release URL.`);
+  const releaseRepository = game.repository || "https://github.com/Alexbeav/psxrecomp-ports";
+  if (!releaseRepository.startsWith("https://github.com/Alexbeav/")) fail(`${game.title}: unexpected repository URL.`);
+  if (!game.windows.startsWith(`${releaseRepository}/releases/download/`)) fail(`${game.title}: unexpected Windows release URL.`);
+  if (game.linux && !game.linux.startsWith(`${releaseRepository}/releases/download/`)) fail(`${game.title}: unexpected Linux release URL.`);
 
   for (const [image] of game.images) {
     const imagePath = path.join(repositoryRoot, "screenshots", "v0.2.0", image);
@@ -49,6 +52,7 @@ for (const game of games) {
 
   if (!readme.includes(`/#${game.slug})`)) fail(`${game.title}: missing README details link.`);
   if (!readme.includes(`](${game.windows})`)) fail(`${game.title}: missing README release link.`);
+  if (game.repository && !readme.includes(`](${game.repository})`)) fail(`${game.title}: missing README repository link.`);
 }
 
 const readmeRows = (readme.match(/^\| \[[^\n]+\|$/gm) || []).length;

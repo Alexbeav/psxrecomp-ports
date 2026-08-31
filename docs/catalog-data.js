@@ -62,7 +62,9 @@ window.CATALOG_GAMES = [
   },
   {
     slug: "mortal-kombat-4", title: "Mortal Kombat 4", region: "USA", serial: "SLUS-00605", bios: "SCPH-1001", players: 2, playersLabel: "2 players", discs: 1,
-    windows: "https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-mortal-kombat-4-usa-v0.2.3-owned-input-win64.zip",
+    repository: "https://github.com/Alexbeav/mortal-kombat-4-recomp",
+    windows: "https://github.com/Alexbeav/mortal-kombat-4-recomp/releases/download/v0.3.5/mortal-kombat-4-recomp-0.3.5-windows-x64.zip",
+    linux: "https://github.com/Alexbeav/mortal-kombat-4-recomp/releases/download/v0.3.5/mortal-kombat-4-recomp-0.3.5-linux-x64.zip",
     images: [["mortal-kombat-4/mortal-kombat-4_menu.jpg", "Mortal Kombat 4 menu"], ["mortal-kombat-4/mortal-kombat-4_game.jpg", "Mortal Kombat 4 gameplay"]]
   },
   {

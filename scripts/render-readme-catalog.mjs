@@ -25,7 +25,10 @@ const rows = [...games]
   .sort((left, right) => left.title.localeCompare(right.title, "en", { numeric: true }))
   .map((game) => {
     const original = game.discs > 1 ? `${game.serial} · ${game.discs} discs` : game.serial;
-    return `| [${escapeCell(game.title)}](${pagesUrl}#${game.slug}) | ${escapeCell(game.region)} | \`${original}\` | \`${game.bios}\` | ${game.playersLabel} | [Windows](${game.windows}) |`;
+    const releases = [`[Windows](${game.windows})`];
+    if (game.linux) releases.push(`[Linux](${game.linux})`);
+    if (game.repository) releases.push(`[Repository](${game.repository})`);
+    return `| [${escapeCell(game.title)}](${pagesUrl}#${game.slug}) | ${escapeCell(game.region)} | \`${original}\` | \`${game.bios}\` | ${game.playersLabel} | ${releases.join(" · ")} |`;
   });
 
 const catalog = [

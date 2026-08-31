@@ -82,6 +82,10 @@
   function renderDetails(game) {
     const issues = game.knownIssues || "No title-specific issue is listed. Release-wide limits still apply.";
     const enhancements = game.enhancements || "None. This release is a bare recompilation.";
+    const repository = game.repository ? `<section class="note-block">
+              <h3>Project repository</h3>
+              <p><a href="${escapeHtml(game.repository)}">View the public repository and all releases.</a></p>
+            </section>` : "";
     const screenshots = game.images.map(([path, alt], index) => `<figure>
       <img src="${screenshotBase}${escapeHtml(path)}" alt="${escapeHtml(alt)}" loading="lazy">
       <figcaption>${index === 0 ? "Menu" : "Gameplay"}</figcaption>
@@ -100,6 +104,7 @@
               <h3>Shipped enhancements</h3>
               <p>${escapeHtml(enhancements)}</p>
             </section>
+            ${repository}
           </div>
         </div>
       </td>
