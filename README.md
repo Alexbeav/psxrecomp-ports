@@ -20,7 +20,7 @@ Each download is an **owned-input build kit**, not a playable executable. The
 kit contains no disc data, retail BIOS, generated game code, generated retail-
 BIOS code, or prebuilt title executable. You provide dumps of the matching
 original disc from material you own. Wave 1 `v0.2.3` kits require the requested
-retail BIOS. Wave 2 `v0.3.0` kits recommend
+retail BIOS. Wave 2 `v0.3.0` and `v0.3.3` kits recommend
 a supported retail SCPH BIOS that matches the game's region and include the
 approved MIT-licensed OpenBIOS fallback. The kit generates the title on your PC.
 
@@ -38,12 +38,19 @@ anyway** if you wish to continue. To verify a kit manually, run
 `certutil -hashfile <download.zip> SHA256` and compare it with the adjacent
 `.sha256` file or the release-wide `SHA256SUMS.txt`.
 
-## Wave 2 v0.3.0 Windows games
+## Wave 2 Windows games
 
-Wave 2 adds 24 Windows x64 source-only setup packages. Each title has its own
-public source repository and release. The [Wave 2 manifest](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.3.0/RELEASE-MANIFEST.json)
-binds every source commit, package size, and SHA-256 value. Linux and macOS
-packaging is deferred.
+Wave 2 has 26 Windows x64 source-only setup packages. Each title has its own
+public source repository and release. The first 24 packages use `v0.3.0`.
+Parasite Eve and Alone in the Dark: The New Nightmare complete the wave with
+`v0.3.3`. The [first Wave 2 manifest](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.3.0/RELEASE-MANIFEST.json)
+binds the first 24 source commits, package sizes, and SHA-256 values. The two
+completion releases record their exact package identities in their title
+release pages. Parasite Eve's ZIP SHA-256 is
+`DE21AC35D86E6D1A22BD442A7ED866F9C7342AA2202262F20C6F8891077588DD`.
+Alone in the Dark's ZIP SHA-256 is
+`4760D2D9616A51ECE5421B3F952257ED0501803B27787705D3549D5AEA111AD4`.
+Linux and macOS assets are not published for these two titles.
 
 ## v0.2.3 owned-input games
 
@@ -67,6 +74,7 @@ Use the [sortable game catalog](https://alexbeav.github.io/psxrecomp-ports/) to 
 | [Ace Combat 3: Electrosphere (Japan)](https://alexbeav.github.io/psxrecomp-ports/#ace-combat-3-electrosphere) | Japan | `SLPS-02020 · SLPS-02021 · 2 discs` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/ace-combat-3-electrosphere-recomp/releases/download/v0.3.0/Ace-Combat-3-Electrosphere-Japan-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/ace-combat-3-electrosphere-recomp) |
 | [Ace Combat 3: Electrosphere (USA)](https://alexbeav.github.io/psxrecomp-ports/#ace-combat-3-electrosphere-usa) | USA | `SLUS-00972` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/ace-combat-3-electrosphere-usa-recomp/releases/download/v0.3.0/Ace-Combat-3-Electrosphere-USA-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/ace-combat-3-electrosphere-usa-recomp) |
 | [Alien Resurrection](https://alexbeav.github.io/psxrecomp-ports/#alien-resurrection) | Europe | `SLES-02913` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-alien-resurrection-europe-v0.2.3-owned-input-win64.zip) |
+| [Alone in the Dark: The New Nightmare](https://alexbeav.github.io/psxrecomp-ports/#alone-in-the-dark-the-new-nightmare) | Europe | `SLES-02801 · SLES-12801 · 2 discs` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/alone-in-the-dark-the-new-nightmare-recomp/releases/download/v0.3.3/Alone-in-the-Dark-The-New-Nightmare-Recompiled-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/alone-in-the-dark-the-new-nightmare-recomp) |
 | [Alundra](https://alexbeav.github.io/psxrecomp-ports/#alundra) | Europe | `SLES-01135` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/alundra-recomp/releases/download/v0.3.0/Alundra-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/alundra-recomp) |
 | [Ape Escape](https://alexbeav.github.io/psxrecomp-ports/#ape-escape) | USA | `SCUS-94423` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/ape-escape-recomp/releases/download/v0.3.0/Ape-Escape-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/ape-escape-recomp) |
 | [Armored Core](https://alexbeav.github.io/psxrecomp-ports/#armored-core) | Europe | `SCES-00842` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/armored-core-recomp/releases/download/v0.3.0/Armored-Core-Recomp-0.3.0-windows-x64.zip) · [Repository](https://github.com/Alexbeav/armored-core-recomp) |
@@ -99,6 +107,7 @@ Use the [sortable game catalog](https://alexbeav.github.io/psxrecomp-ports/) to 
 | [Mortal Kombat 4](https://alexbeav.github.io/psxrecomp-ports/#mortal-kombat-4) | USA | `SLUS-00605` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/mortal-kombat-4-recomp/releases/download/v0.3.5/mortal-kombat-4-recomp-0.3.5-windows-x64.zip) · [Linux](https://github.com/Alexbeav/mortal-kombat-4-recomp/releases/download/v0.3.5/mortal-kombat-4-recomp-0.3.5-linux-x64.zip) · [Repository](https://github.com/Alexbeav/mortal-kombat-4-recomp) |
 | [Nightmare Creatures](https://alexbeav.github.io/psxrecomp-ports/#nightmare-creatures) | USA | `SLUS-00582` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-nightmare-creatures-usa-v0.2.3-owned-input-win64.zip) |
 | [Oddworld: Abe's Oddysee](https://alexbeav.github.io/psxrecomp-ports/#oddworld-abe-s-oddysee) | USA | `SLUS-00190` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-oddworld-abe-s-oddysee-usa-v0.2.3-owned-input-win64.zip) |
+| [Parasite Eve](https://alexbeav.github.io/psxrecomp-ports/#parasite-eve) | USA | `SLUS-00662 · SLUS-00668 · 2 discs` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/parasite-eve-recomp/releases/download/v0.3.3/Parasite-Eve-Recompiled-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/parasite-eve-recomp) |
 | [Quake II](https://alexbeav.github.io/psxrecomp-ports/#quake-ii) | USA | `SLUS-00757` | `SCPH-1001` | Up to 4 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-quake-ii-usa-v0.2.3-owned-input-win64.zip) |
 | [Spyro the Dragon](https://alexbeav.github.io/psxrecomp-ports/#spyro-the-dragon) | Europe | `SCES-01438` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-spyro-the-dragon-europe-v0.2.3-owned-input-win64.zip) |
 | [Syphon Filter 3](https://alexbeav.github.io/psxrecomp-ports/#syphon-filter-3) | USA | `SCUS-94640` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-syphon-filter-3-usa-v0.2.3-owned-input-win64.zip) |

@@ -306,5 +306,19 @@ window.CATALOG_GAMES = [
     repository: "https://github.com/Alexbeav/blood-omen-legacy-of-kain-recomp",
     images: [],
     knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
+  },
+  {
+    slug: "parasite-eve", title: "Parasite Eve", region: "USA", serial: "SLUS-00662 · SLUS-00668", bios: "SCPH-1001", players: 1, playersLabel: "1 player", discs: 2,
+    windows: "https://github.com/Alexbeav/parasite-eve-recomp/releases/download/v0.3.3/Parasite-Eve-Recompiled-0.3.3-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/parasite-eve-recomp",
+    images: [],
+    knownIssues: "Windows x64 package qualification only. Linux and macOS release assets are not published. Natural connected disc change is pending manual gameplay."
+  },
+  {
+    slug: "alone-in-the-dark-the-new-nightmare", title: "Alone in the Dark: The New Nightmare", region: "Europe", serial: "SLES-02801 · SLES-12801", bios: "SCPH-5552", players: 1, playersLabel: "1 player", discs: 2,
+    windows: "https://github.com/Alexbeav/alone-in-the-dark-the-new-nightmare-recomp/releases/download/v0.3.3/Alone-in-the-Dark-The-New-Nightmare-Recompiled-0.3.3-windows-x64.zip",
+    repository: "https://github.com/Alexbeav/alone-in-the-dark-the-new-nightmare-recomp",
+    images: [],
+    knownIssues: "Windows x64 package qualification only. Linux and macOS release assets are not published. Natural connected disc change is pending manual gameplay."
   }
 ];
