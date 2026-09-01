@@ -232,7 +232,7 @@ window.CATALOG_GAMES = [
   },
   {
     slug: "kings-field", title: "King's Field", region: "Japan", serial: "SLPS-00017", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
-    windows: "https://github.com/Alexbeav/kings-field-recomp/releases/download/v0.3.3/King-s-Field-Recomp-0.3.3-windows-x64.zip",
+    windows: "https://github.com/Alexbeav/kings-field-recomp/releases/download/v0.3.4/King-s-Field-Recomp-0.3.4-windows-x64.zip",
     repository: "https://github.com/Alexbeav/kings-field-recomp",
     images: [],
     knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."

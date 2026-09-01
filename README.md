@@ -20,7 +20,7 @@ Each download is an **owned-input build kit**, not a playable executable. The
 kit contains no disc data, retail BIOS, generated game code, generated retail-
 BIOS code, or prebuilt title executable. You provide dumps of the matching
 original disc from material you own. Wave 1 `v0.2.3` kits require the requested
-retail BIOS. Wave 2 `v0.3.0` and `v0.3.3` kits recommend
+retail BIOS. Wave 2 `v0.3.0`, `v0.3.3`, and `v0.3.4` kits recommend
 a supported retail SCPH BIOS that matches the game's region and include the
 approved MIT-licensed OpenBIOS fallback. The kit generates the title on your PC.
 
@@ -41,9 +41,10 @@ anyway** if you wish to continue. To verify a kit manually, run
 ## Wave 2 Windows games
 
 Wave 2 has 26 Windows x64 source-only setup packages. Each title has its own
-public source repository and release. All 26 titles use `v0.3.3`. The first
-24 packages correct the setup executable-name mapping and preserve the older
-`v0.3.0` releases. The [first Wave 2 manifest](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.3.0/RELEASE-MANIFEST.json)
+public source repository and release. Twenty-five titles use `v0.3.3`.
+King's Field uses `v0.3.4`. The first 24 packages correct the setup
+executable-name mapping and preserve the older `v0.3.0` releases. The
+[first Wave 2 manifest](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.3.0/RELEASE-MANIFEST.json)
 still records the original `v0.3.0` source and package identities. Each
 `v0.3.3` title release page records its exact corrected manifest identity.
 Parasite Eve's ZIP SHA-256 is
@@ -93,7 +94,7 @@ Use the [sortable game catalog](https://alexbeav.github.io/psxrecomp-ports/) to 
 | [Fighting Force](https://alexbeav.github.io/psxrecomp-ports/#fighting-force) | USA | `SLUS-00433` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-fighting-force-usa-v0.2.3-owned-input-win64.zip) |
 | [In Cold Blood](https://alexbeav.github.io/psxrecomp-ports/#in-cold-blood) | USA | `SLUS-01294 · SLUS-01314 · 2 discs` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/in-cold-blood-recomp/releases/download/v0.3.3/In-Cold-Blood-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/in-cold-blood-recomp) |
 | [Jackie Chan Stuntmaster](https://alexbeav.github.io/psxrecomp-ports/#jackie-chan-stuntmaster) | USA | `SLUS-00684` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-jackie-chan-stuntmaster-usa-v0.2.3-owned-input-win64.zip) |
-| [King's Field](https://alexbeav.github.io/psxrecomp-ports/#kings-field) | Japan | `SLPS-00017` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/kings-field-recomp/releases/download/v0.3.3/King-s-Field-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/kings-field-recomp) |
+| [King's Field](https://alexbeav.github.io/psxrecomp-ports/#kings-field) | Japan | `SLPS-00017` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/kings-field-recomp/releases/download/v0.3.4/King-s-Field-Recomp-0.3.4-windows-x64.zip) · [Repository](https://github.com/Alexbeav/kings-field-recomp) |
 | [Koudelka](https://alexbeav.github.io/psxrecomp-ports/#koudelka) | Europe | `SLES-02897 · SLES-12897 · SLES-22897 · SLES-32897 · 4 discs` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/koudelka-recomp/releases/download/v0.3.3/Koudelka-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/koudelka-recomp) |
 | [Kula World](https://alexbeav.github.io/psxrecomp-ports/#kula-world) | Europe | `SCES-01000` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/kula-world-recomp/releases/download/v0.3.3/Kula-World-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/kula-world-recomp) |
 | [Legacy of Kain: Soul Reaver](https://alexbeav.github.io/psxrecomp-ports/#legacy-of-kain-soul-reaver) | Europe | `SLES-01301` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-legacy-of-kain-soul-reaver-europe-v0.2.3-owned-input-win64.zip) |
