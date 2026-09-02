@@ -41,8 +41,9 @@ anyway** if you wish to continue. To verify a kit manually, run
 ## Wave 2 Windows games
 
 Wave 2 has 26 Windows x64 source-only setup packages. Each title has its own
-public source repository and release. Twenty-three titles use `v0.3.3`.
-Destruction Derby 2, Die Hard Trilogy, and King's Field use `v0.3.4`. The
+public source repository and release. Twenty titles use `v0.3.3`.
+Alone in the Dark, Destruction Derby 2, Die Hard Trilogy, King's Field, Mega
+Man Legends, and Vigilante 8 use `v0.3.4`. The
 first 24 packages correct the setup executable-name mapping and preserve the
 older `v0.3.0` releases. The
 [first Wave 2 manifest](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.3.0/RELEASE-MANIFEST.json)
@@ -51,7 +52,7 @@ title release page records its exact corrected manifest identity.
 Parasite Eve's ZIP SHA-256 is
 `DE21AC35D86E6D1A22BD442A7ED866F9C7342AA2202262F20C6F8891077588DD`.
 Alone in the Dark's ZIP SHA-256 is
-`4760D2D9616A51ECE5421B3F952257ED0501803B27787705D3549D5AEA111AD4`.
+`D759BC868D04E7F2E327E3333387E2372CC015F97394F19D8212BB43ED3AB2F7`.
 Linux and macOS assets are not published for these two titles.
 
 ## v0.2.3 owned-input games
@@ -76,7 +77,7 @@ Use the [sortable game catalog](https://alexbeav.github.io/psxrecomp-ports/) to 
 | [Ace Combat 3: Electrosphere (Japan)](https://alexbeav.github.io/psxrecomp-ports/#ace-combat-3-electrosphere) | Japan | `SLPS-02020 · SLPS-02021 · 2 discs` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/ace-combat-3-electrosphere-recomp/releases/download/v0.3.3/Ace-Combat-3-Electrosphere-Japan-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/ace-combat-3-electrosphere-recomp) |
 | [Ace Combat 3: Electrosphere (USA)](https://alexbeav.github.io/psxrecomp-ports/#ace-combat-3-electrosphere-usa) | USA | `SLUS-00972` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/ace-combat-3-electrosphere-usa-recomp/releases/download/v0.3.3/Ace-Combat-3-Electrosphere-USA-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/ace-combat-3-electrosphere-usa-recomp) |
 | [Alien Resurrection](https://alexbeav.github.io/psxrecomp-ports/#alien-resurrection) | Europe | `SLES-02913` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-alien-resurrection-europe-v0.2.3-owned-input-win64.zip) |
-| [Alone in the Dark: The New Nightmare](https://alexbeav.github.io/psxrecomp-ports/#alone-in-the-dark-the-new-nightmare) | Europe | `SLES-02801 · SLES-12801 · 2 discs` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/alone-in-the-dark-the-new-nightmare-recomp/releases/download/v0.3.3/Alone-in-the-Dark-The-New-Nightmare-Recompiled-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/alone-in-the-dark-the-new-nightmare-recomp) |
+| [Alone in the Dark: The New Nightmare](https://alexbeav.github.io/psxrecomp-ports/#alone-in-the-dark-the-new-nightmare) | Europe | `SLES-02801 · SLES-12801 · 2 discs` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/alone-in-the-dark-the-new-nightmare-recomp/releases/download/v0.3.4/Alone-in-the-Dark-The-New-Nightmare-Recompiled-0.3.4-windows-x64.zip) · [Repository](https://github.com/Alexbeav/alone-in-the-dark-the-new-nightmare-recomp) |
 | [Alundra](https://alexbeav.github.io/psxrecomp-ports/#alundra) | Europe | `SLES-01135` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/alundra-recomp/releases/download/v0.3.3/Alundra-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/alundra-recomp) |
 | [Ape Escape](https://alexbeav.github.io/psxrecomp-ports/#ape-escape) | USA | `SCUS-94423` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/ape-escape-recomp/releases/download/v0.3.3/Ape-Escape-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/ape-escape-recomp) |
 | [Armored Core](https://alexbeav.github.io/psxrecomp-ports/#armored-core) | Europe | `SCES-00842` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/armored-core-recomp/releases/download/v0.3.3/Armored-Core-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/armored-core-recomp) |
@@ -102,7 +103,7 @@ Use the [sortable game catalog](https://alexbeav.github.io/psxrecomp-ports/) to 
 | [MDK](https://alexbeav.github.io/psxrecomp-ports/#mdk) | Europe | `SLES-00599` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-mdk-europe-v0.2.3-owned-input-win64.zip) |
 | [MediEvil](https://alexbeav.github.io/psxrecomp-ports/#medievil) | USA | `SCUS-94227` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-medievil-usa-v0.2.3-owned-input-win64.zip) |
 | [MediEvil II](https://alexbeav.github.io/psxrecomp-ports/#medievil-ii) | USA | `SCUS-94564` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-medievil-ii-usa-v0.2.3-owned-input-win64.zip) |
-| [Mega Man Legends](https://alexbeav.github.io/psxrecomp-ports/#mega-man-legends) | Europe | `SLES-01485` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/mega-man-legends-recomp/releases/download/v0.3.3/Mega-Man-Legends-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/mega-man-legends-recomp) |
+| [Mega Man Legends](https://alexbeav.github.io/psxrecomp-ports/#mega-man-legends) | Europe | `SLES-01485` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/mega-man-legends-recomp/releases/download/v0.3.4/Mega-Man-Legends-Recomp-0.3.4-windows-x64.zip) · [Repository](https://github.com/Alexbeav/mega-man-legends-recomp) |
 | [Men in Black: The Game](https://alexbeav.github.io/psxrecomp-ports/#men-in-black-the-game) | Europe | `SLES-01047` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/men-in-black-the-game-recomp/releases/download/v0.3.3/Men-in-Black-The-Game-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/men-in-black-the-game-recomp) |
 | [Metal Slug X](https://alexbeav.github.io/psxrecomp-ports/#metal-slug-x) | USA | `SLUS-01212` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-metal-slug-x-usa-v0.2.3-owned-input-win64.zip) |
 | [Monster Rancher 2](https://alexbeav.github.io/psxrecomp-ports/#monster-rancher-2) | USA | `SLUS-00917` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-monster-rancher-2-usa-v0.2.3-owned-input-win64.zip) |
@@ -122,7 +123,7 @@ Use the [sortable game catalog](https://alexbeav.github.io/psxrecomp-ports/) to 
 | [Tony Hawk's Pro Skater 4](https://alexbeav.github.io/psxrecomp-ports/#tony-hawk-s-pro-skater-4) | USA | `SLUS-01485` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-tony-hawk-s-pro-skater-4-usa-v0.2.3-owned-input-win64.zip) |
 | [Valkyrie Profile](https://alexbeav.github.io/psxrecomp-ports/#valkyrie-profile) | USA | `SLUS-01156 · 2 discs` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-valkyrie-profile-usa-v0.2.3-owned-input-win64.zip) |
 | [Vampire Hunter D](https://alexbeav.github.io/psxrecomp-ports/#vampire-hunter-d) | USA | `SLUS-01138` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/vampire-hunter-d-recomp/releases/download/v0.3.3/Vampire-Hunter-D-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/vampire-hunter-d-recomp) |
-| [Vigilante 8](https://alexbeav.github.io/psxrecomp-ports/#vigilante-8) | Europe | `SLES-01212` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/vigilante-8-recomp/releases/download/v0.3.3/Vigilante-8-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/vigilante-8-recomp) |
+| [Vigilante 8](https://alexbeav.github.io/psxrecomp-ports/#vigilante-8) | Europe | `SLES-01212` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/vigilante-8-recomp/releases/download/v0.3.4/Vigilante-8-Recomp-0.3.4-windows-x64.zip) · [Repository](https://github.com/Alexbeav/vigilante-8-recomp) |
 | [WipEout](https://alexbeav.github.io/psxrecomp-ports/#wipeout) | Europe | `SCES-00010` | `SCPH-5552` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-wipeout-europe-v0.2.3-owned-input-win64.zip) |
 | [Xena: Warrior Princess](https://alexbeav.github.io/psxrecomp-ports/#xena-warrior-princess) | USA | `SLUS-00977` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-xena-warrior-princess-usa-v0.2.3-owned-input-win64.zip) |
 <!-- END GENERATED GAME CATALOG -->

@@ -141,7 +141,7 @@ window.CATALOG_GAMES = [
   },
   {
     slug: "mega-man-legends", title: "Mega Man Legends", region: "Europe", serial: "SLES-01485", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
-    windows: "https://github.com/Alexbeav/mega-man-legends-recomp/releases/download/v0.3.3/Mega-Man-Legends-Recomp-0.3.3-windows-x64.zip",
+    windows: "https://github.com/Alexbeav/mega-man-legends-recomp/releases/download/v0.3.4/Mega-Man-Legends-Recomp-0.3.4-windows-x64.zip",
     repository: "https://github.com/Alexbeav/mega-man-legends-recomp",
     images: [],
     knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
@@ -239,7 +239,7 @@ window.CATALOG_GAMES = [
   },
   {
     slug: "vigilante-8", title: "Vigilante 8", region: "Europe", serial: "SLES-01212", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
-    windows: "https://github.com/Alexbeav/vigilante-8-recomp/releases/download/v0.3.3/Vigilante-8-Recomp-0.3.3-windows-x64.zip",
+    windows: "https://github.com/Alexbeav/vigilante-8-recomp/releases/download/v0.3.4/Vigilante-8-Recomp-0.3.4-windows-x64.zip",
     repository: "https://github.com/Alexbeav/vigilante-8-recomp",
     images: [],
     knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
@@ -316,7 +316,7 @@ window.CATALOG_GAMES = [
   },
   {
     slug: "alone-in-the-dark-the-new-nightmare", title: "Alone in the Dark: The New Nightmare", region: "Europe", serial: "SLES-02801 · SLES-12801", bios: "SCPH-5552", players: 1, playersLabel: "1 player", discs: 2,
-    windows: "https://github.com/Alexbeav/alone-in-the-dark-the-new-nightmare-recomp/releases/download/v0.3.3/Alone-in-the-Dark-The-New-Nightmare-Recompiled-0.3.3-windows-x64.zip",
+    windows: "https://github.com/Alexbeav/alone-in-the-dark-the-new-nightmare-recomp/releases/download/v0.3.4/Alone-in-the-Dark-The-New-Nightmare-Recompiled-0.3.4-windows-x64.zip",
     repository: "https://github.com/Alexbeav/alone-in-the-dark-the-new-nightmare-recomp",
     images: [],
     knownIssues: "Windows x64 package qualification only. Linux and macOS release assets are not published. Natural connected disc change is pending manual gameplay."
