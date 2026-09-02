@@ -176,7 +176,7 @@ window.CATALOG_GAMES = [
   },
   {
     slug: "die-hard-trilogy", title: "Die Hard Trilogy", region: "USA", serial: "SLUS-00119", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
-    windows: "https://github.com/Alexbeav/die-hard-trilogy-recomp/releases/download/v0.3.3/Die-Hard-Trilogy-Recomp-0.3.3-windows-x64.zip",
+    windows: "https://github.com/Alexbeav/die-hard-trilogy-recomp/releases/download/v0.3.4/Die-Hard-Trilogy-Recomp-0.3.4-windows-x64.zip",
     repository: "https://github.com/Alexbeav/die-hard-trilogy-recomp",
     images: [],
     knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."
@@ -281,7 +281,7 @@ window.CATALOG_GAMES = [
   },
   {
     slug: "destruction-derby-2", title: "Destruction Derby 2", region: "USA", serial: "SCUS-94350", bios: "Regional SCPH", players: 1, playersLabel: "1 player", discs: 1,
-    windows: "https://github.com/Alexbeav/destruction-derby-2-recomp/releases/download/v0.3.3/Destruction-Derby-2-Recomp-0.3.3-windows-x64.zip",
+    windows: "https://github.com/Alexbeav/destruction-derby-2-recomp/releases/download/v0.3.4/Destruction-Derby-2-Recomp-0.3.4-windows-x64.zip",
     repository: "https://github.com/Alexbeav/destruction-derby-2-recomp",
     images: [],
     knownIssues: "Windows x64 is qualified. Linux and macOS packaging is deferred."

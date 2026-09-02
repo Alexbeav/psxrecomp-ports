@@ -41,12 +41,13 @@ anyway** if you wish to continue. To verify a kit manually, run
 ## Wave 2 Windows games
 
 Wave 2 has 26 Windows x64 source-only setup packages. Each title has its own
-public source repository and release. Twenty-five titles use `v0.3.3`.
-King's Field uses `v0.3.4`. The first 24 packages correct the setup
-executable-name mapping and preserve the older `v0.3.0` releases. The
+public source repository and release. Twenty-three titles use `v0.3.3`.
+Destruction Derby 2, Die Hard Trilogy, and King's Field use `v0.3.4`. The
+first 24 packages correct the setup executable-name mapping and preserve the
+older `v0.3.0` releases. The
 [first Wave 2 manifest](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.3.0/RELEASE-MANIFEST.json)
 still records the original `v0.3.0` source and package identities. Each
-`v0.3.3` title release page records its exact corrected manifest identity.
+title release page records its exact corrected manifest identity.
 Parasite Eve's ZIP SHA-256 is
 `DE21AC35D86E6D1A22BD442A7ED866F9C7342AA2202262F20C6F8891077588DD`.
 Alone in the Dark's ZIP SHA-256 is
@@ -83,9 +84,9 @@ Use the [sortable game catalog](https://alexbeav.github.io/psxrecomp-ports/) to 
 | [Bloody Roar II](https://alexbeav.github.io/psxrecomp-ports/#bloody-roar-ii) | USA | `SCUS-94424` | `SCPH-1001` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-bloody-roar-ii-usa-v0.2.3-owned-input-win64.zip) |
 | [Brave Fencer Musashi](https://alexbeav.github.io/psxrecomp-ports/#brave-fencer-musashi) | USA | `SLUS-00726` | `SCPH-1001` | 1 player | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-brave-fencer-musashi-usa-v0.2.3-owned-input-win64.zip) |
 | [Colin McRae Rally 2.0](https://alexbeav.github.io/psxrecomp-ports/#colin-mcrae-rally-2-0) | USA | `SLUS-01222` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/colin-mcrae-rally-2-0-recomp/releases/download/v0.3.3/Colin-McRae-Rally-2-0-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/colin-mcrae-rally-2-0-recomp) |
-| [Destruction Derby 2](https://alexbeav.github.io/psxrecomp-ports/#destruction-derby-2) | USA | `SCUS-94350` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/destruction-derby-2-recomp/releases/download/v0.3.3/Destruction-Derby-2-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/destruction-derby-2-recomp) |
+| [Destruction Derby 2](https://alexbeav.github.io/psxrecomp-ports/#destruction-derby-2) | USA | `SCUS-94350` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/destruction-derby-2-recomp/releases/download/v0.3.4/Destruction-Derby-2-Recomp-0.3.4-windows-x64.zip) · [Repository](https://github.com/Alexbeav/destruction-derby-2-recomp) |
 | [Diablo](https://alexbeav.github.io/psxrecomp-ports/#diablo) | Europe (Spanish/Portuguese) | `SLES-01156` | `SCPH-5552` | 2 players | [Windows](https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-diablo-europe-v0.2.3-owned-input-win64.zip) |
-| [Die Hard Trilogy](https://alexbeav.github.io/psxrecomp-ports/#die-hard-trilogy) | USA | `SLUS-00119` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/die-hard-trilogy-recomp/releases/download/v0.3.3/Die-Hard-Trilogy-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/die-hard-trilogy-recomp) |
+| [Die Hard Trilogy](https://alexbeav.github.io/psxrecomp-ports/#die-hard-trilogy) | USA | `SLUS-00119` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/die-hard-trilogy-recomp/releases/download/v0.3.4/Die-Hard-Trilogy-Recomp-0.3.4-windows-x64.zip) · [Repository](https://github.com/Alexbeav/die-hard-trilogy-recomp) |
 | [Digimon World 2003](https://alexbeav.github.io/psxrecomp-ports/#digimon-world-2003) | Europe | `SLES-03936` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/digimon-world-2003-recomp/releases/download/v0.3.3/Digimon-World-2003-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/digimon-world-2003-recomp) |
 | [Driver](https://alexbeav.github.io/psxrecomp-ports/#driver) | USA | `SLUS-00842` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/driver-recomp/releases/download/v0.3.3/Driver-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/driver-recomp) |
 | [Duke Nukem: Land of the Babes](https://alexbeav.github.io/psxrecomp-ports/#duke-nukem-land-of-the-babes) | USA | `SLUS-01002` | `Regional SCPH` | 1 player | [Windows](https://github.com/Alexbeav/duke-nukem-land-of-the-babes-recomp/releases/download/v0.3.3/Duke-Nukem-Land-of-the-Babes-Recomp-0.3.3-windows-x64.zip) · [Repository](https://github.com/Alexbeav/duke-nukem-land-of-the-babes-recomp) |
