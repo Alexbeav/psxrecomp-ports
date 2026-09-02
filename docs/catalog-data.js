@@ -15,8 +15,8 @@ window.CATALOG_GAMES = [
     images: [["brave-fencer-musashi/brave-fencer-musashi_menu.jpg", "Brave Fencer Musashi menu"], ["brave-fencer-musashi/brave-fencer-musashi_game.jpg", "Brave Fencer Musashi gameplay"]]
   },
   {
-    slug: "diablo", title: "Diablo", region: "Europe (Spanish/Portuguese)", serial: "SLES-01156", bios: "SCPH-5552", players: 2, playersLabel: "2 players", discs: 1,
-    windows: "https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-diablo-europe-v0.2.3-owned-input-win64.zip",
+    slug: "diablo", title: "Diablo", region: "USA (English/French/German/Swedish)", serial: "SLUS-00619", bios: "SCPH-1001", players: 2, playersLabel: "2 players", discs: 1,
+    windows: "https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.3.4/psxrecomp-diablo-usa-v0.3.4-owned-input-win64.zip",
     images: [["diablo/diablo_menu.jpg", "Diablo menu"], ["diablo/diablo_game.jpg", "Diablo gameplay"]]
   },
   {

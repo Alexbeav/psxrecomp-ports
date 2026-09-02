@@ -1,0 +1,28 @@
+[game]
+name = "Diablo"
+id = "SLUS-00619"
+region = "USA"
+players = 2
+exe = "input/SLUS_006.19"
+load_address = "0x801C0000"
+entry_pc = "0x801C8BDC"
+text_size = "0xC000"
+stack_base = "0x801FFFF0"
+
+[recompiler]
+bios_config = "psxrecomp-src/bios/SCPH1001.toml"
+seeds = "seeds.txt"
+strict = true
+out_dir = "generated"
+
+[runtime]
+window_title = "Diablo Recompiled"
+bios_hle = false
+overlay_cache = true
+openbios = false
+
+[video]
+renderer = "opengl"
+
+[controller]
+default_mode = "digital"

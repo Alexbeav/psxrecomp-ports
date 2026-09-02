@@ -1,0 +1,101 @@
+{
+  "python": {
+    "url": "https://www.python.org/ftp/python/3.13.14/python-3.13.14-embed-amd64.zip",
+    "label": "Python 3.13.14 embeddable runtime",
+    "archive": "python-3.13.14-embed-amd64.zip",
+    "required": [
+      "python.exe",
+      "python313.dll",
+      "python313.zip"
+    ],
+    "sha256": "90B4E5B9898B72D744650524BFF92377C367F44BD5FBD09E3148656C080AD907",
+    "archive_root": null
+  },
+  "release": "v0.2.3",
+  "sdl": {
+    "url": "https://github.com/libsdl-org/SDL/releases/download/release-3.4.10/SDL3-3.4.10.tar.gz",
+    "label": "SDL 3.4.10 source",
+    "archive": "SDL3-3.4.10.tar.gz",
+    "required": [
+      "CMakeLists.txt",
+      "include\\SDL3\\SDL.h",
+      "LICENSE.txt"
+    ],
+    "sha256": "12B34280415EC8418C864408B93D008A20A6530687EE613D60BFBD20411F2785",
+    "archive_root": "SDL3-3.4.10"
+  },
+  "codegen": {
+    "url": "https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-codegen-tools-v0.2.3.zip",
+    "label": "PSXRecomp golden code generators",
+    "archive": "psxrecomp-codegen-tools-v0.2.3.zip",
+    "required": [
+      "libexec\\psxrecomp-game.exe",
+      "libexec\\psxrecomp-bios.exe",
+      "libexec\\psxrecomp-toml.exe",
+      "LICENSE-psxrecomp.txt"
+    ],
+    "sha256": "AF97921C2F2C91BC58F6728A6F9769198F3606210B517BB597D89D0F13346AAB",
+    "archive_root": "psxrecomp-cli"
+  },
+  "framework": {
+    "url": "https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/psxrecomp-runtime-sdk-v0.2.3-filtered.zip",
+    "label": "PSXRecomp golden runtime SDK",
+    "archive": "psxrecomp-runtime-sdk-v0.2.3-filtered.zip",
+    "required": [
+      "runtime\\runtime.cmake",
+      "bios\\SCPH1001.toml",
+      "LICENSE"
+    ],
+    "sha256": "45C2A950FB9D629E98CAB03AAB8E240E19BC8284959A2E11AF17FB43B22F6978",
+    "archive_root": "psxrecomp-src"
+  },
+  "schema": 1,
+  "winlibs": {
+    "url": "https://github.com/brechtsanders/winlibs_mingw/releases/download/16.1.0posix-14.0.0-ucrt-r4/winlibs-x86_64-posix-seh-gcc-16.1.0-mingw-w64ucrt-14.0.0-r4.zip",
+    "label": "WinLibs 16.1.0 toolchain",
+    "archive": "winlibs-x86_64-posix-seh-gcc-16.1.0-mingw-w64ucrt-14.0.0-r4.zip",
+    "required": [
+      "mingw64\\bin\\gcc.exe",
+      "mingw64\\bin\\g++.exe",
+      "mingw64\\bin\\ninja.exe",
+      "mingw64\\bin\\cmake.exe"
+    ],
+    "sha256": "C406A22F8CAC82559A3A1D96B62FF603F666499FB5FF4784E87B4EB6FA37DEDE",
+    "archive_root": null
+  },
+  "ui": {
+    "url": "https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/recomp-ui-unbranded-v0.2.3.zip",
+    "label": "unbranded recomp-ui source",
+    "archive": "recomp-ui-unbranded-v0.2.3.zip",
+    "required": [
+      "recomp_ui.cmake",
+      "assets\\consoles\\psx\\img\\pad_analog.tga",
+      "LICENSE"
+    ],
+    "sha256": "EB5CB830875ECCB9D35D55F476AD8F0FEC24B22B4E99E7AE28BEABB5F6D8D4C0",
+    "archive_root": "recomp-ui"
+  },
+  "rbengine": {
+    "url": "https://github.com/Alexbeav/psxrecomp-ports/releases/download/v0.2.3/retcomm-rbengine-8a254082.zip",
+    "label": "retcomm rollback/rewind engine",
+    "archive": "retcomm-rbengine-8a254082.zip",
+    "required": [
+      "CMakeLists.txt",
+      "include\\retcomm_rbengine\\snap_ring.h"
+    ],
+    "sha256": "B40907F5766A37D3DE61FABE8154B8E3F80D4FC1D3AA71B367F30392B69A5809",
+    "archive_root": "retcomm-rbengine"
+  },
+  "libchdr": {
+    "url": "https://github.com/rtissera/libchdr/archive/6cde5348eb118da3baf94f75a69577a005a484fd.tar.gz",
+    "label": "libchdr source 6cde5348eb118da3baf94f75a69577a005a484fd",
+    "archive": "libchdr-6cde5348eb118da3baf94f75a69577a005a484fd.tar.gz",
+    "required": [
+      "CMakeLists.txt",
+      "include\\libchdr\\chd.h",
+      "LICENSE.txt"
+    ],
+    "sha256": "A222B1F1C842F988C2AAD51E5F56BA94A423ED87CCAB71F1ABDB757CAA7444F5",
+    "archive_root": "libchdr-6cde5348eb118da3baf94f75a69577a005a484fd"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "release": "v0.3.4",
+  "title": "Diablo",
+  "slug": "diablo-usa",
+  "region": "USA",
+  "serial": "SLUS-00619",
+  "local_players": 2,
+  "boot_path": "SLUS_006.19",
+  "boot_exe_sha256": "6CF6B38A4900F1ADFF66E4BD7D8031486195AEF255B8EC10B20DEE1AFB6DC699",
+  "bios_stem": "SCPH1001",
+  "bios_label": "SCPH-1001 (USA v2.2)",
+  "bios_sha256": "71AF94D1E47A68C11E8FDB9F8368040601514A42A5A399CDA48C7D3BFF1E99D3",
+  "exe_basename": "Diablo",
+  "runtime_commit": "8c89c6f4c68a6a587fd28663bbc2502cdc770c5a",
+  "runtime_base": "45bbc69d33a83a847c7f24bf3ace393d45cf9353",
+  "ui_commit": "f867d99cca0346ebabdd707a96fe43259a24fb70",
+  "rollback_commit": "8a254082fa77600c0fe482d22f23ddd117f1b774",
+  "openbios": false
+}
