@@ -1,0 +1,47 @@
+# psxrecomp user settings - written by the launcher. Safe to hand-edit.
+# Overrides the bundled game.toml; the command line overrides this file.
+
+[video]
+renderer          = "opengl"
+supersampling = 4
+window_width      = 1280
+antialiasing      = true
+texture_filtering = "nearest"
+crt_filter        = "raw"
+auto_skip_fmv     = false
+turbo_loads       = false
+fast_boot = true
+bios_hle = true
+fullscreen        = 0
+frame_interpolation = false
+frame_interpolation_fps = 0
+aspect_ratio      = "4:3"
+adaptive_view     = false
+
+[audio]
+spu_hq = false
+
+[launcher]
+skip_launcher = false
+
+[memcard]
+dir = "user-data/cards"
+card1 = "user-data/cards/card1.mcd"
+card2 = "user-data/cards/card2.mcd"
+enable1 = true
+enable2 = true
+
+[controller]
+p1_device = "keyboard"
+p1_mode = "analog"
+p2_device = "none"
+p2_mode = "analog"
+deadzone  = 11468
+
+[localization]
+language = "en"
+
+[parappa_timing]
+mode = "stock"
+extra_early = 0
+extra_late = 0

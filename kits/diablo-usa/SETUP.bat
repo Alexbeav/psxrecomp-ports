@@ -9,4 +9,3 @@ if not "%rc%"=="0" (
   pause
 )
 exit /b %rc%
-

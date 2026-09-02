@@ -2,9 +2,9 @@
 
 This PSXRecomp build recipe ships no game executable, game code, disc data, retail BIOS, or generated retail-BIOS code. You must own the supported disc and the matching SCPH-1001 BIOS dump.
 
-Supported original: **USA, SLUS-00619 (English, French, German, Swedish)**  
-Local players: **2**  
-Required BIOS SHA-256: **71AF94D1E47A68C11E8FDB9F8368040601514A42A5A399CDA48C7D3BFF1E99D3**
+- Supported original: **USA, SLUS-00619 (English, French, German, Swedish)**
+- Local players: **2**
+- Required BIOS SHA-256: **71AF94D1E47A68C11E8FDB9F8368040601514A42A5A399CDA48C7D3BFF1E99D3**
 
 1. Extract the ZIP to a normal writable folder such as `Documents\PSXRecomp`.
 2. Double-click `SETUP.bat`.

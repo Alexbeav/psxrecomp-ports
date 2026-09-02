@@ -37,6 +37,7 @@ user-data/
 cards/
 rewind/
 settings.toml
+!kits/diablo-usa/settings.toml
 psx_freeze_heartbeat.json
 psx_last_run_report.json
 *.log
@@ -52,4 +53,3 @@ out/
 dist/
 __pycache__/
 *.pyc
-
