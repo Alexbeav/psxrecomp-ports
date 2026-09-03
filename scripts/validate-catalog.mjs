@@ -44,6 +44,8 @@ for (const game of games) {
   if (!releaseRepository.startsWith("https://github.com/Alexbeav/")) fail(`${game.title}: unexpected repository URL.`);
   if (!game.windows.startsWith(`${releaseRepository}/releases/download/`)) fail(`${game.title}: unexpected Windows release URL.`);
   if (game.linux && !game.linux.startsWith(`${releaseRepository}/releases/download/`)) fail(`${game.title}: unexpected Linux release URL.`);
+  if (game.macosArm64 && !game.macosArm64.startsWith(`${releaseRepository}/releases/download/`)) fail(`${game.title}: unexpected macOS Apple Silicon release URL.`);
+  if (game.macosX64 && !game.macosX64.startsWith(`${releaseRepository}/releases/download/`)) fail(`${game.title}: unexpected macOS Intel release URL.`);
 
   for (const [image] of game.images) {
     const imagePath = path.join(repositoryRoot, "screenshots", "v0.2.0", image);
@@ -52,6 +54,9 @@ for (const game of games) {
 
   if (!readme.includes(`/#${game.slug})`)) fail(`${game.title}: missing README details link.`);
   if (!readme.includes(`](${game.windows})`)) fail(`${game.title}: missing README release link.`);
+  if (game.linux && !readme.includes(`](${game.linux})`)) fail(`${game.title}: missing README Linux release link.`);
+  if (game.macosArm64 && !readme.includes(`](${game.macosArm64})`)) fail(`${game.title}: missing README macOS Apple Silicon release link.`);
+  if (game.macosX64 && !readme.includes(`](${game.macosX64})`)) fail(`${game.title}: missing README macOS Intel release link.`);
   if (game.repository && !readme.includes(`](${game.repository})`)) fail(`${game.title}: missing README repository link.`);
 }
 

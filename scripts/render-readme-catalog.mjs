@@ -27,6 +27,8 @@ const rows = [...games]
     const original = game.discs > 1 ? `${game.serial} · ${game.discs} discs` : game.serial;
     const releases = [`[Windows](${game.windows})`];
     if (game.linux) releases.push(`[Linux](${game.linux})`);
+    if (game.macosArm64) releases.push(`[macOS Apple Silicon](${game.macosArm64})`);
+    if (game.macosX64) releases.push(`[macOS Intel](${game.macosX64})`);
     if (game.repository) releases.push(`[Repository](${game.repository})`);
     return `| [${escapeCell(game.title)}](${pagesUrl}#${game.slug}) | ${escapeCell(game.region)} | \`${original}\` | \`${game.bios}\` | ${game.playersLabel} | ${releases.join(" · ")} |`;
   });

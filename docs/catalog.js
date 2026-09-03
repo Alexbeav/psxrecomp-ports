@@ -79,6 +79,15 @@
     </a>`;
   }
 
+  function renderMacOSLink(game, architecture, label) {
+    const url = architecture === "arm64" ? game.macosArm64 : game.macosX64;
+    if (!url) return "";
+
+    return `<a class="release-link" href="${escapeHtml(url)}" aria-label="Download ${escapeHtml(game.title)} for macOS ${escapeHtml(label)}">
+      <span aria-hidden="true">●</span><span class="release-label">macOS ${escapeHtml(label)}</span>
+    </a>`;
+  }
+
   function renderDetails(game) {
     const issues = game.knownIssues || "No title-specific issue is listed. Release-wide limits still apply.";
     const enhancements = game.enhancements || "None. This release is a bare recompilation.";
@@ -126,7 +135,7 @@
       <td><code>${escapeHtml(game.serial)}</code>${discLabel}</td>
       <td><code>${escapeHtml(game.bios)}</code></td>
       <td>${escapeHtml(game.playersLabel)}</td>
-      <td><div class="release-links">${renderWindowsLink(game)}${renderLinuxLink(game)}</div></td>
+      <td><div class="release-links">${renderWindowsLink(game)}${renderLinuxLink(game)}${renderMacOSLink(game, "arm64", "Apple Silicon")}${renderMacOSLink(game, "x64", "Intel")}</div></td>
     </tr>${open ? renderDetails(game) : ""}`;
   }
 
