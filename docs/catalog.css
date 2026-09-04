@@ -51,7 +51,7 @@ button, input, select { font: inherit; }
 .site-header,
 main,
 footer {
-  width: min(1180px, calc(100% - 2rem));
+  width: min(1600px, calc(100% - 2rem));
   margin-inline: auto;
 }
 
@@ -225,7 +225,6 @@ td {
   padding: .86rem .9rem;
   border-bottom: 1px solid var(--line);
   text-align: left;
-  white-space: nowrap;
 }
 
 th {
@@ -234,6 +233,7 @@ th {
   font-size: .72rem;
   letter-spacing: .08em;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .sort-button {
@@ -290,6 +290,13 @@ code {
   background: #232b36;
   font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
   font-size: .85em;
+  white-space: nowrap;
+}
+
+.region-detail {
+  display: block;
+  color: var(--muted);
+  font-size: .82rem;
 }
 
 .release-link {
@@ -300,11 +307,13 @@ code {
   padding: .3rem .55rem;
   border: 1px solid var(--line-bright);
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .release-link:hover { border-color: var(--green); color: var(--green); }
 
-.release-links { display: flex; align-items: center; gap: .4rem; }
+.release-links { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; }
+.game-row > td:last-child { width: 36%; }
 .disc-count, .muted { color: var(--muted); font-size: .82rem; }
 
 .windows-mark {
@@ -418,7 +427,7 @@ footer {
 }
 
 @media (max-width: 540px) {
-  .site-header, main, footer { width: min(100% - 1rem, 1180px); }
+  .site-header, main, footer { width: min(100% - 1rem, 1600px); }
   .brand { font-size: .76rem; }
   .github-link { font-size: .75rem; }
   .toolbar { grid-template-columns: 1fr; }

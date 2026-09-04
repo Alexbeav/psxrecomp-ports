@@ -28,7 +28,30 @@
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 
-  const regionGroup = (game) => game.region.startsWith("Europe") ? "Europe" : game.region;
+  function splitRegion(region) {
+    const match = String(region).match(/^([^()]+?)(?:\s*\((.*)\))?$/);
+    return {
+      group: match ? match[1].trim() : String(region),
+      detail: match?.[2] || ""
+    };
+  }
+
+  const regionGroup = (game) => splitRegion(game.region).group;
+
+  function renderRegion(region) {
+    const { group, detail } = splitRegion(region);
+    const detailLine = detail
+      ? `<span class="region-detail">${escapeHtml(detail).replaceAll("/", "/&#8203;")}</span>`
+      : "";
+    return `${escapeHtml(group)}${detailLine}`;
+  }
+
+  function renderSerials(serial) {
+    return String(serial)
+      .split(" · ")
+      .map((value) => `<code>${escapeHtml(value)}</code>`)
+      .join(' <span class="muted">·</span> ');
+  }
 
   function compareGames(left, right) {
     const key = state.sortKey;
@@ -131,8 +154,8 @@
           <span>${escapeHtml(game.title)}</span>
         </button>
       </td>
-      <td>${escapeHtml(game.region)}</td>
-      <td><code>${escapeHtml(game.serial)}</code>${discLabel}</td>
+      <td>${renderRegion(game.region)}</td>
+      <td>${renderSerials(game.serial)}${discLabel}</td>
       <td><code>${escapeHtml(game.bios)}</code></td>
       <td>${escapeHtml(game.playersLabel)}</td>
       <td><div class="release-links">${renderWindowsLink(game)}${renderLinuxLink(game)}${renderMacOSLink(game, "arm64", "Apple Silicon")}${renderMacOSLink(game, "x64", "Intel")}</div></td>
