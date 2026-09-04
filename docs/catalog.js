@@ -85,30 +85,10 @@
       .sort(compareGames);
   }
 
-  function renderWindowsLink(game) {
-    if (!game.windows) return '<span class="muted">—</span>';
+  function renderArchLink(game, platform, architecture, url) {
+    if (!url) return '<span class="muted">—</span>';
 
-    return `<a class="release-link" href="${escapeHtml(game.windows)}" aria-label="Download ${escapeHtml(game.title)} for Windows">
-      <span class="windows-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
-      <span class="release-label">Windows</span>
-    </a>`;
-  }
-
-  function renderLinuxLink(game) {
-    if (!game.linux) return "";
-
-    return `<a class="release-link" href="${escapeHtml(game.linux)}" aria-label="Download ${escapeHtml(game.title)} for Linux">
-      <span aria-hidden="true">◆</span><span class="release-label">Linux</span>
-    </a>`;
-  }
-
-  function renderMacOSLink(game, architecture, label) {
-    const url = architecture === "arm64" ? game.macosArm64 : game.macosX64;
-    if (!url) return "";
-
-    return `<a class="release-link" href="${escapeHtml(url)}" aria-label="Download ${escapeHtml(game.title)} for macOS ${escapeHtml(label)}">
-      <span aria-hidden="true">●</span><span class="release-label">macOS ${escapeHtml(label)}</span>
-    </a>`;
+    return `<a class="arch-link" href="${escapeHtml(url)}" aria-label="Download ${escapeHtml(game.title)} for ${escapeHtml(platform)} (${escapeHtml(architecture)})">${escapeHtml(architecture)}</a>`;
   }
 
   function renderDetails(game) {
@@ -124,7 +104,7 @@
     </figure>`).join("") : '<p class="muted">Screenshots are not published for this title yet.</p>';
 
     return `<tr class="details-row" id="${escapeHtml(game.slug)}-details">
-      <td colspan="6">
+      <td colspan="8">
         <div class="game-details">
           <div class="screenshots">${screenshots}</div>
           <div class="notes">
@@ -158,7 +138,9 @@
       <td>${renderSerials(game.serial)}${discLabel}</td>
       <td><code>${escapeHtml(game.bios)}</code></td>
       <td>${escapeHtml(game.playersLabel)}</td>
-      <td><div class="release-links">${renderWindowsLink(game)}${renderLinuxLink(game)}${renderMacOSLink(game, "arm64", "Apple Silicon")}${renderMacOSLink(game, "x64", "Intel")}</div></td>
+      <td>${renderArchLink(game, "Windows", "x86-64", game.windows)}</td>
+      <td>${renderArchLink(game, "Linux", "x86-64", game.linux)}</td>
+      <td><div class="arch-links">${renderArchLink(game, "macOS", "arm64", game.macosArm64)}${renderArchLink(game, "macOS", "x86-64", game.macosX64)}</div></td>
     </tr>${open ? renderDetails(game) : ""}`;
   }
 

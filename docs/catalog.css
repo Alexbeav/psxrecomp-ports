@@ -299,30 +299,21 @@ code {
   font-size: .82rem;
 }
 
-.release-link {
+.arch-link {
   display: inline-flex;
   align-items: center;
-  gap: .5rem;
   min-height: 32px;
   padding: .3rem .55rem;
   border: 1px solid var(--line-bright);
+  font: .78rem/1 ui-monospace, SFMono-Regular, Consolas, monospace;
   text-decoration: none;
   white-space: nowrap;
 }
 
-.release-link:hover { border-color: var(--green); color: var(--green); }
+.arch-link:hover { border-color: var(--green); color: var(--green); }
 
-.release-links { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; }
-.game-row > td:last-child { width: 36%; }
+.arch-links { display: flex; align-items: center; gap: .4rem; }
 .disc-count, .muted { color: var(--muted); font-size: .82rem; }
-
-.windows-mark {
-  display: grid;
-  grid-template-columns: repeat(2, 5px);
-  gap: 2px;
-}
-
-.windows-mark i { width: 5px; height: 5px; background: currentColor; }
 
 .details-row td {
   padding: 0;
@@ -433,7 +424,6 @@ footer {
   .toolbar { grid-template-columns: 1fr; }
   .screenshots { grid-template-columns: 1fr; }
   .notice { flex-direction: column; }
-  .release-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); }
 }
 
 @media (prefers-reduced-motion: reduce) {
