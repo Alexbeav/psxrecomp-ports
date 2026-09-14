@@ -48,9 +48,7 @@ anyway** if you wish to continue. To verify a kit manually, run
 
 Wave 4 adds 27 releases at `v0.1.0` (26 games; Rival Schools ships its Arcade and
 Evolution discs as two kits). Each release provides Windows x64, Linux x64, macOS
-Apple Silicon, and macOS Intel setup packages. The Wave 4 releases are being
-published on September 14, 2026: a download link below goes live as soon as that
-title's `v0.1.0` release completes.
+Apple Silicon, and macOS Intel setup packages.
 
 These kits require the matching complete Redump CUE/BIN disc set (a CHD of the
 same dump is accepted by the kit) and your own BIOS dump for the kit's region:
