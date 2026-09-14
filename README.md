@@ -27,7 +27,8 @@ a supported retail SCPH BIOS that matches the game's region and include the
 approved MIT-licensed OpenBIOS fallback. The kit generates the title on your PC.
 
 The following steps apply to older Windows kits with `SETUP.bat`.
-Use the [Wave 3 setup instructions](#wave-3-releases) for the new packages.
+Use the [Wave 4](#wave-4-releases) or [Wave 3](#wave-3-releases) setup instructions for the
+current packages.
 
 1. Download and extract one kit to a normal writable folder such as
    `Documents\PSXRecomp` (not `Program Files`).
@@ -79,8 +80,8 @@ not Apple notarized.
 
 ## Wave 3 releases
 
-Wave 3 adds 26 releases at `v0.1.0`, for 78 catalog entries across all three
-batches. Each release provides Windows x64, Linux x64, macOS Apple Silicon,
+Wave 3 adds 26 releases at `v0.1.0` (78 catalog entries at the time, across the
+first three batches). Each release provides Windows x64, Linux x64, macOS Apple Silicon,
 and macOS Intel setup packages.
 
 These kits require the matching complete Redump CUE/BIN disc set and your own
